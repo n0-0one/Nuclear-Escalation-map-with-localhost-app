@@ -1,3075 +1,3075 @@
 {
   "cn_hq_11": {
-    "unit_class": "cn_hq_11",
-    "model": "hq_11",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 60.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 45000.0,
-        "maximum": 45000.0,
-        "band": 5,
-        "scope_ranges": [],
-        "designation_range": 45000.0,
-        "ai": true,
-        "sensor": "cn_hq_11_search_ai",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "250mm_fm_3000_user_cannon",
-        "ammo": 8,
-        "minimum": 1000.0,
-        "effective_maximum": 30000.0,
-        "physical_maximum": 30000.0,
-        "ai_minimum": 2000.0,
-        "ai_maximum": 30000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 30000.0,
+    "ai_attack_max_radius": 30000,
+    "ai_engagement_range": 30000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 30000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 30000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 30000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "HQ11"
+    ],
+    "maximum_speed_kph": 60,
+    "model": "hq_11",
+    "on_radar_as": "sam",
+    "sensors": {
+      "detection": {
+        "ai": true,
+        "band": 5,
+        "designation_range": 45000,
+        "kind": "detection",
+        "maximum": 45000,
+        "nominal": 45000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "cn_hq_11_search_ai"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "cn_hq_11",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 30000,
+        "ai_minimum": 2000,
+        "ammo": 8,
+        "effective_maximum": 30000,
+        "guidance": "radar",
+        "minimum": 1000,
+        "name": "250mm_fm_3000_user_cannon",
+        "physical_maximum": 30000,
+        "reload_seconds": 15
+      }
     ]
   },
   "germ_destroyer_lutjens_class_lutjens": {
-    "unit_class": "germ_destroyer_lutjens_class_lutjens",
-    "model": "destroyer_lutjens_class_lutjens",
-    "unit_type": "typeDestroyer",
-    "on_radar_as": "missile_destroyer",
+    "ai_attack_max_radius": 30000,
+    "ai_engagement_range": 30000,
+    "ai_gun_range": 10000,
+    "ai_shell_max_radius": 40000,
+    "ai_target_priority_max_radius": 60000,
+    "engagement_range": 80000,
     "exp_class": "exp_destroyer",
-    "maximum_speed_kph": 80.0,
-    "target_channels": 2,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 120000.0,
-        "maximum": 150000.0,
-        "band": 0,
-        "scope_ranges": [
-          10000.0,
-          20000.0,
-          50000.0
-        ],
-        "designation_range": 150000.0,
-        "ai": false,
-        "sensor": "us_an_sps_12",
-        "range_status": "confirmed"
-      },
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 25000.0,
-        "maximum": 30000.0,
-        "band": 2,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "us_an_spg_51",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "rocket_mk13_naval_rocket_launcher",
-        "ammo": 41,
-        "minimum": 3000.0,
-        "effective_maximum": 80000.0,
-        "physical_maximum": 80000.0,
-        "ai_minimum": 3500.0,
-        "ai_maximum": 30000.0,
-        "guidance": "radar",
-        "reload_seconds": 10.0
-      },
-      {
-        "name": "127mm_54_mk18_turret_mk42_single_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
-        "ai_minimum": 0.05,
-        "ai_maximum": 10000.0,
-        "guidance": null,
-        "reload_seconds": null
-      }
-    ],
-    "engagement_range": 80000.0,
-    "ai_gun_range": 10000.0,
-    "ai_attack_max_radius": 30000.0,
-    "ai_shell_max_radius": 40000.0,
-    "ai_target_priority_max_radius": 60000.0,
-    "ai_engagement_range": 30000.0,
     "hud_names": [
       "Lütjens"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "destroyer_lutjens_class_lutjens",
+    "on_radar_as": "missile_destroyer",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 0,
+        "designation_range": 150000,
+        "kind": "detection",
+        "maximum": 150000,
+        "nominal": 120000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          10000,
+          20000,
+          50000
+        ],
+        "sensor": "us_an_sps_12"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 2,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 30000,
+        "nominal": 25000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "us_an_spg_51"
+      }
+    },
+    "target_channels": 2,
+    "unit_class": "germ_destroyer_lutjens_class_lutjens",
+    "unit_type": "typeDestroyer",
+    "weapons": [
+      {
+        "ai_maximum": 30000,
+        "ai_minimum": 3500,
+        "ammo": 41,
+        "effective_maximum": 80000,
+        "guidance": "radar",
+        "minimum": 3000,
+        "name": "rocket_mk13_naval_rocket_launcher",
+        "physical_maximum": 80000,
+        "reload_seconds": 10
+      },
+      {
+        "ai_maximum": 10000,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 10000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "127mm_54_mk18_turret_mk42_single_naval_user_cannon",
+        "physical_maximum": 10000,
+        "reload_seconds": null
+      }
     ]
   },
   "germ_flakpz_1a2_gepard": {
-    "unit_class": "germ_flakpz_1a2_Gepard",
-    "model": "flakpz_1a2_gepard",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
+    "ai_attack_max_radius": 10000,
+    "ai_engagement_range": 5000,
+    "ai_gun_range": 3000,
+    "ai_shell_max_radius": 3000,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 5000,
     "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 16000.0,
-        "maximum": 20000.0,
-        "band": 4,
-        "scope_ranges": [
-          10000.0,
-          20000.0
-        ],
-        "designation_range": 15000.0,
-        "ai": false,
-        "sensor": "de_gepard_sr",
-        "range_status": "confirmed"
-      },
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 15000.0,
-        "maximum": 20000.0,
-        "band": 9,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "de_gepard_fr",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "70mm_fim_92e_stinger_launcher_user_cannon",
-        "ammo": 4,
-        "minimum": 30.0,
-        "effective_maximum": 5000.0,
-        "physical_maximum": 10000.0,
-        "ai_minimum": 800.0,
-        "ai_maximum": 5000.0,
-        "guidance": "optical",
-        "reload_seconds": 15.0
-      },
-      {
-        "name": "35mm_oerlikon_kda_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 3000.0,
-        "physical_maximum": 3000.0,
-        "ai_minimum": 0.1,
-        "ai_maximum": 3000.0,
-        "guidance": null,
-        "reload_seconds": 1.0
-      }
-    ],
-    "engagement_range": 5000.0,
-    "ai_gun_range": 3000.0,
-    "ai_attack_max_radius": 10000.0,
-    "ai_shell_max_radius": 3000.0,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 5000.0,
     "hud_names": [
       "Gepard 1A2"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "flakpz_1a2_gepard",
+    "on_radar_as": "sam",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 4,
+        "designation_range": 15000,
+        "kind": "detection",
+        "maximum": 20000,
+        "nominal": 16000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          10000,
+          20000
+        ],
+        "sensor": "de_gepard_sr"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 9,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 20000,
+        "nominal": 15000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "de_gepard_fr"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "germ_flakpz_1a2_Gepard",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 5000,
+        "ai_minimum": 800,
+        "ammo": 4,
+        "effective_maximum": 5000,
+        "guidance": "optical",
+        "minimum": 30,
+        "name": "70mm_fim_92e_stinger_launcher_user_cannon",
+        "physical_maximum": 10000,
+        "reload_seconds": 15
+      },
+      {
+        "ai_maximum": 3000,
+        "ai_minimum": 0.1,
+        "ammo": null,
+        "effective_maximum": 3000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "35mm_oerlikon_kda_user_cannon",
+        "physical_maximum": 3000,
+        "reload_seconds": 1
+      }
     ]
   },
   "germ_flarakpz_1": {
-    "unit_class": "germ_flarakpz_1",
-    "model": "flarakpz_1",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 1,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 16000.0,
-        "maximum": 20000.0,
-        "band": 3,
-        "scope_ranges": [
-          10000.0,
-          20000.0
-        ],
-        "designation_range": 16000.0,
-        "ai": false,
-        "sensor": "de_roland_sr",
-        "range_status": "confirmed"
-      },
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 16000.0,
-        "maximum": 20000.0,
-        "band": 9,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "de_roland_fr",
-        "range_status": "confirmed"
-      },
-      "irst": {
-        "kind": "irst",
-        "nominal": 8000.0,
-        "maximum": 10000.0,
-        "band": -1,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "de_roland_fr",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "163mm_roland_2_launcher_user_cannon",
-        "ammo": 10,
-        "minimum": 500.0,
-        "effective_maximum": 6300.0,
-        "physical_maximum": 6300.0,
-        "ai_minimum": 1000.0,
-        "ai_maximum": 8000.0,
-        "guidance": "saclos",
-        "reload_seconds": 5.0
-      }
-    ],
-    "engagement_range": 6300.0,
+    "ai_attack_max_radius": 10000,
+    "ai_engagement_range": 8000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 10000.0,
     "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 8000.0,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 6300,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "FlaRakPz 1"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "flarakpz_1",
+    "on_radar_as": "sam",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 3,
+        "designation_range": 16000,
+        "kind": "detection",
+        "maximum": 20000,
+        "nominal": 16000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          10000,
+          20000
+        ],
+        "sensor": "de_roland_sr"
+      },
+      "irst": {
+        "ai": false,
+        "band": -1,
+        "designation_range": null,
+        "kind": "irst",
+        "maximum": 10000,
+        "nominal": 8000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "de_roland_fr"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 9,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 20000,
+        "nominal": 16000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "de_roland_fr"
+      }
+    },
+    "target_channels": 1,
+    "unit_class": "germ_flarakpz_1",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 8000,
+        "ai_minimum": 1000,
+        "ammo": 10,
+        "effective_maximum": 6300,
+        "guidance": "saclos",
+        "minimum": 500,
+        "name": "163mm_roland_2_launcher_user_cannon",
+        "physical_maximum": 6300,
+        "reload_seconds": 5
+      }
     ]
   },
   "germ_pzh_2000": {
-    "unit_class": "germ_pzh_2000",
-    "model": "pzh_2000_germ",
-    "unit_type": "typeTankDestroyer",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank_destroyer",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 15000,
+    "ai_engagement_range": 15000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 15000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 15000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank_destroyer",
     "hud_names": [
       "PzH 2000"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "pzh_2000_germ",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "germ_pzh_2000",
+    "unit_type": "typeTankDestroyer",
+    "weapons": []
   },
   "il_spyder_aio": {
-    "unit_class": "il_spyder_aio",
-    "model": "spyder_aio",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 40000.0,
-        "maximum": 40000.0,
-        "band": 5,
-        "scope_ranges": [],
-        "designation_range": 40000.0,
-        "ai": true,
-        "sensor": "il_spyder_search_ai",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "160mm_spyder_launcher_user_cannon",
-        "ammo": 8,
-        "minimum": 30.0,
-        "effective_maximum": 15000.0,
-        "physical_maximum": 15000.0,
-        "ai_minimum": 1500.0,
-        "ai_maximum": 30000.0,
-        "guidance": "optical",
-        "reload_seconds": 0.5
-      }
-    ],
-    "engagement_range": 15000.0,
+    "ai_attack_max_radius": 30000,
+    "ai_engagement_range": 30000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 30000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 30000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 15000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "SPYDER"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "spyder_aio",
+    "on_radar_as": "sam",
+    "sensors": {
+      "detection": {
+        "ai": true,
+        "band": 5,
+        "designation_range": 40000,
+        "kind": "detection",
+        "maximum": 40000,
+        "nominal": 40000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "il_spyder_search_ai"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "il_spyder_aio",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 30000,
+        "ai_minimum": 1500,
+        "ammo": 8,
+        "effective_maximum": 15000,
+        "guidance": "optical",
+        "minimum": 30,
+        "name": "160mm_spyder_launcher_user_cannon",
+        "physical_maximum": 15000,
+        "reload_seconds": 0.5
+      }
     ]
   },
   "it_otomatic": {
-    "unit_class": "it_otomatic",
-    "model": "otomatic",
-    "unit_type": "typeSPAA",
-    "on_radar_as": null,
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": null,
-        "maximum": null,
-        "band": 4,
-        "scope_ranges": [
-          10000.0,
-          20000.0
-        ],
-        "designation_range": 15000.0,
-        "ai": true,
-        "sensor": "it_sma_vps-a05_ai",
-        "range_status": "unresolved_internal",
-        "raw_nominal": 10.0,
-        "raw_maximum": 10.0
-      },
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 10000.0,
-        "maximum": 10000.0,
-        "band": 10,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "it_sma_vps-a06",
-        "range_status": "confirmed"
-      },
-      "irst": {
-        "kind": "irst",
-        "nominal": 8000.0,
-        "maximum": 10000.0,
-        "band": -1,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "it_sma_vps-a06",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "76mm_oto_breda_76_62_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 3000.0,
-        "physical_maximum": 3000.0,
-        "ai_minimum": 0.1,
-        "ai_maximum": 10000.0,
-        "guidance": null,
-        "reload_seconds": null
-      }
-    ],
-    "engagement_range": 10000.0,
-    "ai_gun_range": 10000.0,
     "ai_attack_max_radius": null,
-    "ai_shell_max_radius": 3000.0,
-    "ai_target_priority_max_radius": 5000.0,
-    "ai_engagement_range": 10000.0,
+    "ai_engagement_range": 10000,
+    "ai_gun_range": 10000,
+    "ai_shell_max_radius": 3000,
+    "ai_target_priority_max_radius": 5000,
+    "engagement_range": 10000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "OTOMATIC"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "otomatic",
+    "on_radar_as": null,
+    "sensors": {
+      "detection": {
+        "ai": true,
+        "band": 4,
+        "designation_range": 15000,
+        "kind": "detection",
+        "maximum": null,
+        "nominal": null,
+        "range_status": "unresolved_internal",
+        "raw_maximum": 10,
+        "raw_nominal": 10,
+        "scope_ranges": [
+          10000,
+          20000
+        ],
+        "sensor": "it_sma_vps-a05_ai"
+      },
+      "irst": {
+        "ai": false,
+        "band": -1,
+        "designation_range": null,
+        "kind": "irst",
+        "maximum": 10000,
+        "nominal": 8000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "it_sma_vps-a06"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 10,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 10000,
+        "nominal": 10000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "it_sma_vps-a06"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "it_otomatic",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 10000,
+        "ai_minimum": 0.1,
+        "ammo": null,
+        "effective_maximum": 3000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "76mm_oto_breda_76_62_user_cannon",
+        "physical_maximum": 3000,
+        "reload_seconds": null
+      }
     ]
   },
   "it_samp_t_fcs": {
-    "unit_class": "it_samp_t_fcs",
-    "model": "samp_t_fcs",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 60000.0,
-        "maximum": 60000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": 60000.0,
-        "ai": true,
-        "sensor": "fr_arabel_ai",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "FSAF SAMP/T (TADS)"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "samp_t_fcs",
+    "on_radar_as": "radar",
+    "sensors": {
+      "detection": {
+        "ai": true,
+        "band": 8,
+        "designation_range": 60000,
+        "kind": "detection",
+        "maximum": 60000,
+        "nominal": 60000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "fr_arabel_ai"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "it_samp_t_fcs",
+    "unit_type": "typeSPAA",
+    "weapons": []
   },
   "it_samp_t_launcher": {
-    "unit_class": "it_samp_t_launcher",
-    "model": "samp_t_launcher",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "380mm_aster_30_user_cannon",
-        "ammo": 8,
-        "minimum": 1000.0,
-        "effective_maximum": 100000.0,
-        "physical_maximum": 100000.0,
-        "ai_minimum": 3000.0,
-        "ai_maximum": 80000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 100000.0,
+    "ai_attack_max_radius": 80000,
+    "ai_engagement_range": 80000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 80000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 80000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 100000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "FSAF SAMP/T (TEL)"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "samp_t_launcher",
+    "on_radar_as": "sam",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "it_samp_t_launcher",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 80000,
+        "ai_minimum": 3000,
+        "ammo": 8,
+        "effective_maximum": 100000,
+        "guidance": "radar",
+        "minimum": 1000,
+        "name": "380mm_aster_30_user_cannon",
+        "physical_maximum": 100000,
+        "reload_seconds": 15
+      }
     ]
   },
   "jp_type_03_chusam_fcs": {
-    "unit_class": "jp_type_03_chusam_fcs",
-    "model": "type_03_chusam_fcs",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 50000.0,
-        "maximum": 100000.0,
-        "band": 5,
-        "scope_ranges": [],
-        "designation_range": 100000.0,
-        "ai": false,
-        "sensor": "jp_type_03_search",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "Type 03 (TADS)"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "type_03_chusam_fcs",
+    "on_radar_as": "radar",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 5,
+        "designation_range": 100000,
+        "kind": "detection",
+        "maximum": 100000,
+        "nominal": 50000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "jp_type_03_search"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "jp_type_03_chusam_fcs",
+    "unit_type": "typeSPAA",
+    "weapons": []
   },
   "jp_type_03_chusam_launcher": {
-    "unit_class": "jp_type_03_chusam_launcher",
-    "model": "type_03_chusam_launcher",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "320mm_type_03_user_cannon",
-        "ammo": 6,
-        "minimum": 1000.0,
-        "effective_maximum": 80000.0,
-        "physical_maximum": 80000.0,
-        "ai_minimum": 500.0,
-        "ai_maximum": 80000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 80000.0,
+    "ai_attack_max_radius": 80000,
+    "ai_engagement_range": 80000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 80000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 80000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 80000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "Type 03 (TEL)"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "type_03_chusam_launcher",
+    "on_radar_as": "sam",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "jp_type_03_chusam_launcher",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 80000,
+        "ai_minimum": 500,
+        "ammo": 6,
+        "effective_maximum": 80000,
+        "guidance": "radar",
+        "minimum": 1000,
+        "name": "320mm_type_03_user_cannon",
+        "physical_maximum": 80000,
+        "reload_seconds": 15
+      }
     ]
   },
   "sw_crotale_ng": {
-    "unit_class": "sw_crotale_ng",
-    "model": "crotale_ng",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
+    "ai_attack_max_radius": 12000,
+    "ai_engagement_range": 12000,
+    "ai_gun_range": null,
+    "ai_shell_max_radius": null,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 12000,
     "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 1,
+    "hud_names": [
+      "ItO 90M"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "crotale_ng",
+    "on_radar_as": "sam",
     "sensors": {
       "detection": {
-        "kind": "detection",
-        "nominal": null,
-        "maximum": null,
-        "band": 4,
-        "scope_ranges": [
-          10000.0,
-          20000.0
-        ],
-        "designation_range": 16000.0,
         "ai": true,
-        "sensor": "fr_crotale_search_ai",
+        "band": 4,
+        "designation_range": 16000,
+        "kind": "detection",
+        "maximum": null,
+        "nominal": null,
         "range_status": "unresolved_internal",
-        "raw_nominal": 10.0,
-        "raw_maximum": 10.0
+        "raw_maximum": 10,
+        "raw_nominal": 10,
+        "scope_ranges": [
+          10000,
+          20000
+        ],
+        "sensor": "fr_crotale_search_ai"
+      },
+      "irst": {
+        "ai": true,
+        "band": -1,
+        "designation_range": null,
+        "kind": "irst",
+        "maximum": 16000,
+        "nominal": 15000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "fr_crotale_track_ai"
       },
       "tracking": {
-        "kind": "tracking",
-        "nominal": 16000.0,
-        "maximum": 20000.0,
+        "ai": true,
         "band": [
           9,
           4
         ],
-        "scope_ranges": [],
         "designation_range": null,
-        "ai": true,
-        "sensor": "fr_crotale_track_ai",
-        "range_status": "confirmed"
-      },
-      "irst": {
-        "kind": "irst",
-        "nominal": 15000.0,
-        "maximum": 16000.0,
-        "band": -1,
+        "kind": "tracking",
+        "maximum": 20000,
+        "nominal": 16000,
+        "range_status": "confirmed",
         "scope_ranges": [],
-        "designation_range": null,
-        "ai": true,
-        "sensor": "fr_crotale_track_ai",
-        "range_status": "confirmed"
+        "sensor": "fr_crotale_track_ai"
       }
     },
+    "target_channels": 1,
+    "unit_class": "sw_crotale_ng",
+    "unit_type": "typeSPAA",
     "weapons": [
       {
-        "name": "163mm_vt_1_launcher_user_cannon",
+        "ai_maximum": 12000,
+        "ai_minimum": 500,
         "ammo": 8,
-        "minimum": 30.0,
-        "effective_maximum": 12000.0,
-        "physical_maximum": 12000.0,
-        "ai_minimum": 500.0,
-        "ai_maximum": 12000.0,
+        "effective_maximum": 12000,
         "guidance": "saclos",
-        "reload_seconds": 1.0
+        "minimum": 30,
+        "name": "163mm_vt_1_launcher_user_cannon",
+        "physical_maximum": 12000,
+        "reload_seconds": 1
       }
-    ],
-    "engagement_range": 12000.0,
-    "ai_gun_range": null,
-    "ai_attack_max_radius": 12000.0,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 12000.0,
-    "hud_names": [
-      "ItO 90M"
     ]
   },
   "us_ai_aew_radar_tps_59": {
-    "unit_class": "us_ai_aew_radar_tps_59",
-    "model": "tps_59_radar",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": null,
-        "maximum": null,
-        "band": 5,
-        "scope_ranges": [
-          40000.0,
-          80000.0,
-          120000.0
-        ],
-        "designation_range": 180000.0,
-        "ai": false,
-        "sensor": "us_tps_59",
-        "range_status": "unresolved_internal",
-        "raw_nominal": 2.0,
-        "raw_maximum": 2.0
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "AN/TPS-59 radar"
-    ]
+    ],
+    "maximum_speed_kph": 0,
+    "model": "tps_59_radar",
+    "on_radar_as": "radar",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 5,
+        "designation_range": 180000,
+        "kind": "detection",
+        "maximum": null,
+        "nominal": null,
+        "range_status": "unresolved_internal",
+        "raw_maximum": 2,
+        "raw_nominal": 2,
+        "scope_ranges": [
+          40000,
+          80000,
+          120000
+        ],
+        "sensor": "us_tps_59"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "us_ai_aew_radar_tps_59",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "us_ai_mlrs_m270": {
-    "unit_class": "us_ai_mlrs_m270",
-    "model": "us_m_270_mlrs",
-    "unit_type": "typeTankDestroyer",
-    "on_radar_as": "mlrs",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "227mm_m270_rocket_launcher",
-        "ammo": 12,
-        "minimum": 15000.0,
-        "effective_maximum": 45500.0,
-        "physical_maximum": 45500.0,
-        "ai_minimum": null,
-        "ai_maximum": 45000.0,
-        "guidance": null,
-        "reload_seconds": 8.0
-      }
-    ],
-    "engagement_range": 45500.0,
+    "ai_attack_max_radius": 45000,
+    "ai_engagement_range": 45000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 45000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 45000.0,
+    "engagement_range": 45500,
+    "exp_class": "exp_tank",
     "hud_names": [
       "M270 MLRS"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "us_m_270_mlrs",
+    "on_radar_as": "mlrs",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_ai_mlrs_m270",
+    "unit_type": "typeTankDestroyer",
+    "weapons": [
+      {
+        "ai_maximum": 45000,
+        "ai_minimum": null,
+        "ammo": 12,
+        "effective_maximum": 45500,
+        "guidance": null,
+        "minimum": 15000,
+        "name": "227mm_m270_rocket_launcher",
+        "physical_maximum": 45500,
+        "reload_seconds": 8
+      }
     ]
   },
   "us_ai_sam_launcher_m192": {
-    "unit_class": "us_ai_sam_launcher_m192",
-    "model": "mim_23_hawk_launcher_m192",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "sam",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "370mm_i_hawk_rocket_launcher",
-        "ammo": 3,
-        "minimum": 3000.0,
-        "effective_maximum": 40000.0,
-        "physical_maximum": 40000.0,
-        "ai_minimum": 2000.0,
-        "ai_maximum": 40000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 40000.0,
+    "ai_attack_max_radius": 40000,
+    "ai_engagement_range": 40000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 40000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 40000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 40000,
+    "exp_class": "exp_tank",
     "hud_names": [
       "\"I-HAWK\" launcher"
+    ],
+    "maximum_speed_kph": 0,
+    "model": "mim_23_hawk_launcher_m192",
+    "on_radar_as": "sam",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_ai_sam_launcher_m192",
+    "unit_type": "typeLightTank",
+    "weapons": [
+      {
+        "ai_maximum": 40000,
+        "ai_minimum": 2000,
+        "ammo": 3,
+        "effective_maximum": 40000,
+        "guidance": "radar",
+        "minimum": 3000,
+        "name": "370mm_i_hawk_rocket_launcher",
+        "physical_maximum": 40000,
+        "reload_seconds": 15
+      }
     ]
   },
   "us_ai_sam_launcher_m192_early": {
-    "unit_class": "us_ai_sam_launcher_m192_early",
-    "model": "mim_23_hawk_launcher_m192",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "sam",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "370mm_mim_23a_hawk_rocket_launcher",
-        "ammo": 3,
-        "minimum": 3000.0,
-        "effective_maximum": 35000.0,
-        "physical_maximum": 35000.0,
-        "ai_minimum": 2000.0,
-        "ai_maximum": 35000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 35000.0,
+    "ai_attack_max_radius": 35000,
+    "ai_engagement_range": 35000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 35000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 35000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 35000,
+    "exp_class": "exp_tank",
     "hud_names": [
       "\"HAWK\" launcher"
+    ],
+    "maximum_speed_kph": 0,
+    "model": "mim_23_hawk_launcher_m192",
+    "on_radar_as": "sam",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_ai_sam_launcher_m192_early",
+    "unit_type": "typeLightTank",
+    "weapons": [
+      {
+        "ai_maximum": 35000,
+        "ai_minimum": 2000,
+        "ammo": 3,
+        "effective_maximum": 35000,
+        "guidance": "radar",
+        "minimum": 3000,
+        "name": "370mm_mim_23a_hawk_rocket_launcher",
+        "physical_maximum": 35000,
+        "reload_seconds": 15
+      }
     ]
   },
   "us_ai_sam_launcher_m901": {
-    "unit_class": "us_ai_sam_launcher_m901",
-    "model": "mim_104_patriot_launcher_m901",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "sam",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "410mm_patriot_mim_104_rocket_launcher",
-        "ammo": 4,
-        "minimum": 3000.0,
-        "effective_maximum": 160000.0,
-        "physical_maximum": 160000.0,
-        "ai_minimum": 5000.0,
-        "ai_maximum": 70000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 160000.0,
+    "ai_attack_max_radius": 160000,
+    "ai_engagement_range": 70000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 160000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 70000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 160000,
+    "exp_class": "exp_tank",
     "hud_names": [
       "\"Patriot\" launcher"
+    ],
+    "maximum_speed_kph": 0,
+    "model": "mim_104_patriot_launcher_m901",
+    "on_radar_as": "sam",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_ai_sam_launcher_m901",
+    "unit_type": "typeLightTank",
+    "weapons": [
+      {
+        "ai_maximum": 70000,
+        "ai_minimum": 5000,
+        "ammo": 4,
+        "effective_maximum": 160000,
+        "guidance": "radar",
+        "minimum": 3000,
+        "name": "410mm_patriot_mim_104_rocket_launcher",
+        "physical_maximum": 160000,
+        "reload_seconds": 15
+      }
     ]
   },
   "us_ai_sam_radar_an_mpq_33": {
-    "unit_class": "us_ai_sam_radar_an_mpq_33",
-    "model": "mim_23_hawk_radar_an_mpq46",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "radar",
-    "exp_class": "exp_ai_sam_tracking_radar",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 100000.0,
-        "maximum": 60000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "us_an_mpq_61",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 50000,
+    "ai_engagement_range": 50000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 50000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 50000.0,
+    "engagement_range": null,
+    "exp_class": "exp_ai_sam_tracking_radar",
     "hud_names": [
       "\"HAWK\" radar"
-    ]
+    ],
+    "maximum_speed_kph": 0,
+    "model": "mim_23_hawk_radar_an_mpq46",
+    "on_radar_as": "radar",
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 8,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 60000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "us_an_mpq_61"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "us_ai_sam_radar_an_mpq_33",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "us_ai_sam_radar_an_mpq_34_cwar": {
-    "unit_class": "us_ai_sam_radar_an_mpq_34_cwar",
-    "model": "mim_23_hawk_radar_cwar",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 100000.0,
-        "maximum": 180000.0,
-        "band": 7,
-        "scope_ranges": [
-          40000.0,
-          80000.0,
-          120000.0
-        ],
-        "designation_range": 180000.0,
-        "ai": false,
-        "sensor": "us_an_mpq_50",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "AN/MPQ-34 radar"
-    ]
-  },
-  "us_ai_sam_radar_an_mpq_46": {
-    "unit_class": "us_ai_sam_radar_an_mpq_46",
-    "model": "mim_23_hawk_radar_an_mpq46",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "radar",
-    "exp_class": "exp_ai_sam_tracking_radar",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 100000.0,
-        "maximum": 60000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "us_an_mpq_61",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
-    "ai_attack_max_radius": 50000.0,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 50000.0,
-    "hud_names": [
-      "\"I-HAWK\" radar"
-    ]
-  },
-  "us_ai_sam_radar_an_mpq_53": {
-    "unit_class": "us_ai_sam_radar_an_mpq_53",
-    "model": "mim_104_patriot_radar_an_mpq53",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "radar",
-    "exp_class": "exp_ai_sam_tracking_radar",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 100000.0,
-        "maximum": 180000.0,
-        "band": 6,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "us_an_mpq_53",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
-    "ai_attack_max_radius": 75000.0,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 75000.0,
-    "hud_names": [
-      "\"Patriot\" radar"
-    ]
-  },
-  "us_ai_sam_radar_cwar": {
-    "unit_class": "us_ai_sam_radar_cwar",
+    ],
+    "maximum_speed_kph": 0,
     "model": "mim_23_hawk_radar_cwar",
-    "unit_type": "typeLightTank",
     "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
     "sensors": {
       "detection": {
-        "kind": "detection",
-        "nominal": 100000.0,
-        "maximum": 180000.0,
-        "band": 7,
-        "scope_ranges": [
-          40000.0,
-          80000.0,
-          120000.0
-        ],
-        "designation_range": 180000.0,
         "ai": false,
-        "sensor": "us_an_mpq_50",
-        "range_status": "confirmed"
+        "band": 7,
+        "designation_range": 180000,
+        "kind": "detection",
+        "maximum": 180000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          40000,
+          80000,
+          120000
+        ],
+        "sensor": "us_an_mpq_50"
       }
     },
-    "weapons": [],
-    "engagement_range": null,
+    "target_channels": null,
+    "unit_class": "us_ai_sam_radar_an_mpq_34_cwar",
+    "unit_type": "typeLightTank",
+    "weapons": []
+  },
+  "us_ai_sam_radar_an_mpq_46": {
+    "ai_attack_max_radius": 50000,
+    "ai_engagement_range": 50000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
+    "engagement_range": null,
+    "exp_class": "exp_ai_sam_tracking_radar",
+    "hud_names": [
+      "\"I-HAWK\" radar"
+    ],
+    "maximum_speed_kph": 0,
+    "model": "mim_23_hawk_radar_an_mpq46",
+    "on_radar_as": "radar",
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 8,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 60000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "us_an_mpq_61"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "us_ai_sam_radar_an_mpq_46",
+    "unit_type": "typeLightTank",
+    "weapons": []
+  },
+  "us_ai_sam_radar_an_mpq_53": {
+    "ai_attack_max_radius": 75000,
+    "ai_engagement_range": 75000,
+    "ai_gun_range": null,
+    "ai_shell_max_radius": null,
+    "ai_target_priority_max_radius": null,
+    "engagement_range": null,
+    "exp_class": "exp_ai_sam_tracking_radar",
+    "hud_names": [
+      "\"Patriot\" radar"
+    ],
+    "maximum_speed_kph": 0,
+    "model": "mim_104_patriot_radar_an_mpq53",
+    "on_radar_as": "radar",
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 6,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 180000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "us_an_mpq_53"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "us_ai_sam_radar_an_mpq_53",
+    "unit_type": "typeLightTank",
+    "weapons": []
+  },
+  "us_ai_sam_radar_cwar": {
+    "ai_attack_max_radius": null,
     "ai_engagement_range": null,
+    "ai_gun_range": null,
+    "ai_shell_max_radius": null,
+    "ai_target_priority_max_radius": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "\"CWAR\" radar"
-    ]
+    ],
+    "maximum_speed_kph": 0,
+    "model": "mim_23_hawk_radar_cwar",
+    "on_radar_as": "radar",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 7,
+        "designation_range": 180000,
+        "kind": "detection",
+        "maximum": 180000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          40000,
+          80000,
+          120000
+        ],
+        "sensor": "us_an_mpq_50"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "us_ai_sam_radar_cwar",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "us_ai_tbm_m752_lance": {
-    "unit_class": "us_ai_tbm_m752_lance",
-    "model": "us_m_752_launcher",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "tbm_launcher",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "557mm_mgm_52_rocket_launcher",
-        "ammo": 1,
-        "minimum": 15000.0,
-        "effective_maximum": 80000.0,
-        "physical_maximum": 80000.0,
-        "ai_minimum": 15000.0,
-        "ai_maximum": 70000.0,
-        "guidance": "sns",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 80000.0,
+    "ai_attack_max_radius": 70000,
+    "ai_engagement_range": 70000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 70000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 70000.0,
+    "engagement_range": 80000,
+    "exp_class": "exp_tank",
     "hud_names": [
       "\"Lance\" TBM"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "us_m_752_launcher",
+    "on_radar_as": "tbm_launcher",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_ai_tbm_m752_lance",
+    "unit_type": "typeLightTank",
+    "weapons": [
+      {
+        "ai_maximum": 70000,
+        "ai_minimum": 15000,
+        "ammo": 1,
+        "effective_maximum": 80000,
+        "guidance": "sns",
+        "minimum": 15000,
+        "name": "557mm_mgm_52_rocket_launcher",
+        "physical_maximum": 80000,
+        "reload_seconds": 15
+      }
     ]
   },
   "us_aircraftcarrier_forrestal_ai": {
-    "unit_class": "us_aircraftcarrier_forrestal_ai",
-    "model": "aircraftcarrier_forrestal",
-    "unit_type": "typeShip",
-    "on_radar_as": null,
+    "ai_attack_max_radius": 10000,
+    "ai_engagement_range": 10000,
+    "ai_gun_range": 10000,
+    "ai_shell_max_radius": 7000,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 10000,
     "exp_class": "exp_cv_ship",
-    "maximum_speed_kph": 80.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "127mm_54_mk42_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
-        "ai_minimum": 0.05,
-        "ai_maximum": 10000.0,
-        "guidance": null,
-        "reload_seconds": null
-      }
-    ],
-    "engagement_range": 10000.0,
-    "ai_gun_range": 10000.0,
-    "ai_attack_max_radius": 10000.0,
-    "ai_shell_max_radius": 7000.0,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 10000.0,
     "hud_names": [
       "USS Forrestal"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "aircraftcarrier_forrestal",
+    "on_radar_as": null,
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_aircraftcarrier_forrestal_ai",
+    "unit_type": "typeShip",
+    "weapons": [
+      {
+        "ai_maximum": 10000,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 10000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "127mm_54_mk42_naval_user_cannon",
+        "physical_maximum": 10000,
+        "reload_seconds": null
+      }
     ]
   },
   "us_ashville_class_douglas": {
-    "unit_class": "us_ashville_class_douglas",
-    "model": "ashville_class_douglas",
-    "unit_type": "typeGunBoat",
-    "on_radar_as": null,
+    "ai_attack_max_radius": 20000,
+    "ai_engagement_range": 20000,
+    "ai_gun_range": 4500,
+    "ai_shell_max_radius": 7000,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 14000,
     "exp_class": "exp_gun_boat",
-    "maximum_speed_kph": 80.0,
-    "target_channels": 1,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 25000.0,
-        "maximum": 30000.0,
-        "band": 2,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "us_an_spg_50",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "rocket_rim_24_a_naval_rocket_launcher",
-        "ammo": 4,
-        "minimum": 0,
-        "effective_maximum": 14000.0,
-        "physical_maximum": 14500.0,
-        "ai_minimum": null,
-        "ai_maximum": 20000.0,
-        "guidance": "saclos",
-        "reload_seconds": 30.0
-      },
-      {
-        "name": "76mm_50cal_mk34_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
-        "ai_minimum": 0.05,
-        "ai_maximum": 4500.0,
-        "guidance": null,
-        "reload_seconds": 10.0
-      },
-      {
-        "name": "12_7mm_m2_browning_naval_user_machinegun",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
-        "ai_minimum": 0.05,
-        "ai_maximum": 1500.0,
-        "guidance": null,
-        "reload_seconds": 12.0
-      }
-    ],
-    "engagement_range": 14000.0,
-    "ai_gun_range": 4500.0,
-    "ai_attack_max_radius": 20000.0,
-    "ai_shell_max_radius": 7000.0,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 20000.0,
     "hud_names": [
       "USS Douglas"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "ashville_class_douglas",
+    "on_radar_as": null,
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 2,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 30000,
+        "nominal": 25000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "us_an_spg_50"
+      }
+    },
+    "target_channels": 1,
+    "unit_class": "us_ashville_class_douglas",
+    "unit_type": "typeGunBoat",
+    "weapons": [
+      {
+        "ai_maximum": 20000,
+        "ai_minimum": null,
+        "ammo": 4,
+        "effective_maximum": 14000,
+        "guidance": "saclos",
+        "minimum": 0,
+        "name": "rocket_rim_24_a_naval_rocket_launcher",
+        "physical_maximum": 14500,
+        "reload_seconds": 30
+      },
+      {
+        "ai_maximum": 4500,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 10000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "76mm_50cal_mk34_naval_user_cannon",
+        "physical_maximum": 10000,
+        "reload_seconds": 10
+      },
+      {
+        "ai_maximum": 1500,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 10000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "12_7mm_m2_browning_naval_user_machinegun",
+        "physical_maximum": 10000,
+        "reload_seconds": 12
+      }
     ]
   },
   "us_cruiser_rckt_california": {
-    "unit_class": "us_cruiser_rckt_california",
-    "model": "cruiser_rckt_california",
-    "unit_type": "typeDestroyer",
-    "on_radar_as": "missile_light_cruiser",
+    "ai_attack_max_radius": 56300,
+    "ai_engagement_range": 56300,
+    "ai_gun_range": 10000,
+    "ai_shell_max_radius": 56300,
+    "ai_target_priority_max_radius": 60000,
+    "engagement_range": 80000,
     "exp_class": "exp_cruiser",
-    "maximum_speed_kph": 80.0,
-    "target_channels": null,
+    "hud_names": [
+      "USS California"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "cruiser_rckt_california",
+    "on_radar_as": "missile_light_cruiser",
     "sensors": {
       "detection": {
-        "kind": "detection",
-        "nominal": 120000.0,
-        "maximum": 150000.0,
-        "band": 5,
-        "scope_ranges": [
-          60000.0
-        ],
-        "designation_range": 150000.0,
         "ai": false,
-        "sensor": "us_an_sps_48",
-        "range_status": "confirmed"
+        "band": 5,
+        "designation_range": 150000,
+        "kind": "detection",
+        "maximum": 150000,
+        "nominal": 120000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          60000
+        ],
+        "sensor": "us_an_sps_48"
       },
       "tracking": {
-        "kind": "tracking",
-        "nominal": 100000.0,
-        "maximum": 60000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": null,
         "ai": false,
-        "sensor": "us_an_spg_51_ec",
-        "range_status": "confirmed"
+        "band": 8,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 60000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "us_an_spg_51_ec"
       }
     },
+    "target_channels": null,
+    "unit_class": "us_cruiser_rckt_california",
+    "unit_type": "typeDestroyer",
     "weapons": [
       {
-        "name": "rocket_mk13_naval_rocket_launcher",
+        "ai_maximum": 56300,
+        "ai_minimum": 3500,
         "ammo": 41,
-        "minimum": 3000.0,
-        "effective_maximum": 80000.0,
-        "physical_maximum": 80000.0,
-        "ai_minimum": 3500.0,
-        "ai_maximum": 56300.0,
+        "effective_maximum": 80000,
         "guidance": "radar",
-        "reload_seconds": 10.0
+        "minimum": 3000,
+        "name": "rocket_mk13_naval_rocket_launcher",
+        "physical_maximum": 80000,
+        "reload_seconds": 10
       },
       {
-        "name": "127mm_54_mk45_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
+        "ai_maximum": 10000,
         "ai_minimum": 0.05,
-        "ai_maximum": 10000.0,
+        "ammo": null,
+        "effective_maximum": 10000,
         "guidance": null,
+        "minimum": 0,
+        "name": "127mm_54_mk45_naval_user_cannon",
+        "physical_maximum": 10000,
         "reload_seconds": null
       },
       {
-        "name": "20mm_m61_vulcan_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 6000.0,
-        "physical_maximum": 6000.0,
+        "ai_maximum": 3000,
         "ai_minimum": 0.05,
-        "ai_maximum": 3000.0,
+        "ammo": null,
+        "effective_maximum": 6000,
         "guidance": null,
-        "reload_seconds": 60.0
+        "minimum": 0,
+        "name": "20mm_m61_vulcan_naval_user_cannon",
+        "physical_maximum": 6000,
+        "reload_seconds": 60
       }
-    ],
-    "engagement_range": 80000.0,
-    "ai_gun_range": 10000.0,
-    "ai_attack_max_radius": 56300.0,
-    "ai_shell_max_radius": 56300.0,
-    "ai_target_priority_max_radius": 60000.0,
-    "ai_engagement_range": 56300.0,
-    "hud_names": [
-      "USS California"
     ]
   },
   "us_destroyer_cf_adams_class_cf_adams_ec": {
-    "unit_class": "us_destroyer_cf_adams_class_cf_adams_ec",
-    "model": "destroyer_cf_adams_class_cf_adams",
-    "unit_type": "typeDestroyer",
-    "on_radar_as": "missile_destroyer",
+    "ai_attack_max_radius": 20000,
+    "ai_engagement_range": 20000,
+    "ai_gun_range": 10000,
+    "ai_shell_max_radius": 7000,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 24000,
     "exp_class": "exp_destroyer",
-    "maximum_speed_kph": 80.0,
-    "target_channels": 2,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 120000.0,
-        "maximum": 150000.0,
-        "band": 0,
-        "scope_ranges": [
-          10000.0,
-          20000.0,
-          50000.0
-        ],
-        "designation_range": 150000.0,
-        "ai": false,
-        "sensor": "us_an_sps_37",
-        "range_status": "confirmed"
-      },
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 25000.0,
-        "maximum": 30000.0,
-        "band": 2,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "us_an_spg_51",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "rocket_mk11_naval_rocket_launcher",
-        "ammo": 42,
-        "minimum": 0,
-        "effective_maximum": 24000.0,
-        "physical_maximum": 24000.0,
-        "ai_minimum": 500.0,
-        "ai_maximum": 20000.0,
-        "guidance": "saclos",
-        "reload_seconds": 20.0
-      },
-      {
-        "name": "127mm_54_mk42_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
-        "ai_minimum": 0.05,
-        "ai_maximum": 10000.0,
-        "guidance": null,
-        "reload_seconds": null
-      }
-    ],
-    "engagement_range": 24000.0,
-    "ai_gun_range": 10000.0,
-    "ai_attack_max_radius": 20000.0,
-    "ai_shell_max_radius": 7000.0,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 20000.0,
     "hud_names": [
       "USS Charles F. Adams"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "destroyer_cf_adams_class_cf_adams",
+    "on_radar_as": "missile_destroyer",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 0,
+        "designation_range": 150000,
+        "kind": "detection",
+        "maximum": 150000,
+        "nominal": 120000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          10000,
+          20000,
+          50000
+        ],
+        "sensor": "us_an_sps_37"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 2,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 30000,
+        "nominal": 25000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "us_an_spg_51"
+      }
+    },
+    "target_channels": 2,
+    "unit_class": "us_destroyer_cf_adams_class_cf_adams_ec",
+    "unit_type": "typeDestroyer",
+    "weapons": [
+      {
+        "ai_maximum": 20000,
+        "ai_minimum": 500,
+        "ammo": 42,
+        "effective_maximum": 24000,
+        "guidance": "saclos",
+        "minimum": 0,
+        "name": "rocket_mk11_naval_rocket_launcher",
+        "physical_maximum": 24000,
+        "reload_seconds": 20
+      },
+      {
+        "ai_maximum": 10000,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 10000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "127mm_54_mk42_naval_user_cannon",
+        "physical_maximum": 10000,
+        "reload_seconds": null
+      }
     ]
   },
   "us_m109a1": {
-    "unit_class": "us_m109a1",
-    "model": "m109a1",
-    "unit_type": "typeTankDestroyer",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank_destroyer",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 15000,
+    "ai_engagement_range": 15000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 15000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 15000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank_destroyer",
     "hud_names": [
       "M109A1"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "m109a1",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_m109a1",
+    "unit_type": "typeTankDestroyer",
+    "weapons": []
   },
   "us_m163_vulcan": {
-    "unit_class": "us_m163_vulcan",
-    "model": "m163_vulcan",
-    "unit_type": "typeSPAA",
-    "on_radar_as": null,
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 5000.0,
-        "maximum": 7000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": 7000.0,
-        "ai": false,
-        "sensor": "us_an_vps_2",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "20mm_m168_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 3000.0,
-        "physical_maximum": 3000.0,
-        "ai_minimum": 0.1,
-        "ai_maximum": 2500.0,
-        "guidance": null,
-        "reload_seconds": 20.0
-      }
-    ],
-    "engagement_range": 3000.0,
-    "ai_gun_range": 2500.0,
     "ai_attack_max_radius": null,
-    "ai_shell_max_radius": 3000.0,
-    "ai_target_priority_max_radius": 5000.0,
-    "ai_engagement_range": 2500.0,
+    "ai_engagement_range": 2500,
+    "ai_gun_range": 2500,
+    "ai_shell_max_radius": 3000,
+    "ai_target_priority_max_radius": 5000,
+    "engagement_range": 3000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "M163"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "m163_vulcan",
+    "on_radar_as": null,
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 8,
+        "designation_range": 7000,
+        "kind": "tracking",
+        "maximum": 7000,
+        "nominal": 5000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "us_an_vps_2"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "us_m163_vulcan",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 2500,
+        "ai_minimum": 0.1,
+        "ammo": null,
+        "effective_maximum": 3000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "20mm_m168_user_cannon",
+        "physical_maximum": 3000,
+        "reload_seconds": 20
+      }
     ]
   },
   "us_m1a1_abrams": {
-    "unit_class": "us_m1a1_abrams",
-    "model": "m1a1_abrams",
-    "unit_type": "typeMediumTank",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "M1A1"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "m1a1_abrams",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_m1a1_abrams",
+    "unit_type": "typeMediumTank",
+    "weapons": []
   },
   "us_m1a2_sep2_abrams": {
-    "unit_class": "us_m1a2_sep2_abrams",
-    "model": "m1a2_sep2",
-    "unit_type": "typeMediumTank",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "M1A2 SEPv2"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "m1a2_sep2",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_m1a2_sep2_abrams",
+    "unit_type": "typeMediumTank",
+    "weapons": []
   },
   "us_m3_bradley": {
-    "unit_class": "us_m3_bradley",
-    "model": "m3_bradley",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "ifv",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 1,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "M3 Bradley"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "m3_bradley",
+    "on_radar_as": "ifv",
+    "sensors": {},
+    "target_channels": 1,
+    "unit_class": "us_m3_bradley",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "us_m3a3_bradley": {
-    "unit_class": "us_m3a3_bradley",
-    "model": "m3a3_bradley",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "ifv",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 1,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 10000.0,
-        "maximum": 12000.0,
-        "band": -1,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "su_bmp_auto_target_tracker",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "M3A3 Bradley"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "m3a3_bradley",
+    "on_radar_as": "ifv",
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": -1,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 12000,
+        "nominal": 10000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_bmp_auto_target_tracker"
+      }
+    },
+    "target_channels": 1,
+    "unit_class": "us_m3a3_bradley",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "us_m42_duster": {
-    "unit_class": "us_m42_duster",
-    "model": "m42_duster",
-    "unit_type": "typeSPAA",
-    "on_radar_as": null,
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "M42"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "m42_duster",
+    "on_radar_as": null,
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_m42_duster",
+    "unit_type": "typeSPAA",
+    "weapons": []
   },
   "us_m48a1_patton_iii": {
-    "unit_class": "us_m48a1_patton_III",
-    "model": "m48a1_patton_III",
-    "unit_type": "typeMediumTank",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "M48"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "m48a1_patton_III",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_m48a1_patton_III",
+    "unit_type": "typeMediumTank",
+    "weapons": []
   },
   "us_m551": {
-    "unit_class": "us_m551",
-    "model": "m551",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "M551"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "m551",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "us_m551",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "ussr_2s19_m1": {
-    "unit_class": "ussr_2s19_m1",
-    "model": "2s19m1",
-    "unit_type": "typeTankDestroyer",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank_destroyer",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 15000,
+    "ai_engagement_range": 15000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 15000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 15000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank_destroyer",
     "hud_names": [
       "2S19M1"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "2s19m1",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_2s19_m1",
+    "unit_type": "typeTankDestroyer",
+    "weapons": []
   },
   "ussr_2s38": {
-    "unit_class": "ussr_2s38",
-    "model": "2s38",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 10000.0,
-        "maximum": 12000.0,
-        "band": -1,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "su_bmp_auto_target_tracker",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "2S38"
-    ]
-  },
-  "ussr_2s3m": {
-    "unit_class": "ussr_2s3m",
-    "model": "2s3m",
-    "unit_type": "typeTankDestroyer",
+    ],
+    "maximum_speed_kph": 75,
+    "model": "2s38",
     "on_radar_as": "tracked",
-    "exp_class": "exp_tank_destroyer",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
-    "ai_attack_max_radius": 15000.0,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 15000.0,
-    "hud_names": [
-      "2S3M"
-    ]
-  },
-  "ussr_9a33bm3": {
-    "unit_class": "ussr_9a33bm3",
-    "model": "9a33bm3",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 2,
     "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 30000.0,
-        "maximum": 30000.0,
-        "band": 7,
-        "scope_ranges": [
-          15000.0,
-          35000.0,
-          45000.0
-        ],
-        "designation_range": 30000.0,
-        "ai": true,
-        "sensor": "su_9k_33m3_search_ai",
-        "range_status": "confirmed"
-      },
       "tracking": {
-        "kind": "tracking",
-        "nominal": 25000.0,
-        "maximum": 25000.0,
-        "band": 9,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": true,
-        "sensor": "su_9k_33m3_track_ai",
-        "range_status": "confirmed"
-      },
-      "irst": {
-        "kind": "irst",
-        "nominal": 8000.0,
-        "maximum": 10000.0,
+        "ai": false,
         "band": -1,
-        "scope_ranges": [],
         "designation_range": null,
-        "ai": true,
-        "sensor": "su_9k_33m3_track_ai",
-        "range_status": "confirmed"
+        "kind": "tracking",
+        "maximum": 12000,
+        "nominal": 10000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_bmp_auto_target_tracker"
       }
     },
-    "weapons": [
-      {
-        "name": "209mm_9m33a3_launcher_user_cannon",
-        "ammo": 6,
-        "minimum": 500.0,
-        "effective_maximum": 10300.0,
-        "physical_maximum": 10300.0,
-        "ai_minimum": 500.0,
-        "ai_maximum": 10300.0,
-        "guidance": "saclos",
-        "reload_seconds": 1.0
-      }
-    ],
-    "engagement_range": 10300.0,
+    "target_channels": null,
+    "unit_class": "ussr_2s38",
+    "unit_type": "typeLightTank",
+    "weapons": []
+  },
+  "ussr_2s3m": {
+    "ai_attack_max_radius": 15000,
+    "ai_engagement_range": 15000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 10300.0,
     "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 10300.0,
+    "ai_target_priority_max_radius": null,
+    "engagement_range": null,
+    "exp_class": "exp_tank_destroyer",
+    "hud_names": [
+      "2S3M"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "2s3m",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_2s3m",
+    "unit_type": "typeTankDestroyer",
+    "weapons": []
+  },
+  "ussr_9a33bm3": {
+    "ai_attack_max_radius": 10300,
+    "ai_engagement_range": 10300,
+    "ai_gun_range": null,
+    "ai_shell_max_radius": null,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 10300,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "Osa-AKM"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "9a33bm3",
+    "on_radar_as": "sam",
+    "sensors": {
+      "detection": {
+        "ai": true,
+        "band": 7,
+        "designation_range": 30000,
+        "kind": "detection",
+        "maximum": 30000,
+        "nominal": 30000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          15000,
+          35000,
+          45000
+        ],
+        "sensor": "su_9k_33m3_search_ai"
+      },
+      "irst": {
+        "ai": true,
+        "band": -1,
+        "designation_range": null,
+        "kind": "irst",
+        "maximum": 10000,
+        "nominal": 8000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_9k_33m3_track_ai"
+      },
+      "tracking": {
+        "ai": true,
+        "band": 9,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 25000,
+        "nominal": 25000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_9k_33m3_track_ai"
+      }
+    },
+    "target_channels": 2,
+    "unit_class": "ussr_9a33bm3",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 10300,
+        "ai_minimum": 500,
+        "ammo": 6,
+        "effective_maximum": 10300,
+        "guidance": "saclos",
+        "minimum": 500,
+        "name": "209mm_9m33a3_launcher_user_cannon",
+        "physical_maximum": 10300,
+        "reload_seconds": 1
+      }
     ]
   },
   "ussr_9a35_m2": {
-    "unit_class": "ussr_9a35_m2",
-    "model": "9a35m2",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 10000.0,
-        "maximum": 12000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": 10000.0,
-        "ai": false,
-        "sensor": "su_9s86",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "120mm_9m37m_rocket_launcher",
-        "ammo": 8,
-        "minimum": 30.0,
-        "effective_maximum": 5000.0,
-        "physical_maximum": 10000.0,
-        "ai_minimum": 300.0,
-        "ai_maximum": 5500.0,
-        "guidance": "optical",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 5000.0,
+    "ai_attack_max_radius": 10000,
+    "ai_engagement_range": 5500,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 10000.0,
     "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 5500.0,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 5000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "Strela-10M2"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "9a35m2",
+    "on_radar_as": "sam",
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 8,
+        "designation_range": 10000,
+        "kind": "tracking",
+        "maximum": 12000,
+        "nominal": 10000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_9s86"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_9a35_m2",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 5500,
+        "ai_minimum": 300,
+        "ammo": 8,
+        "effective_maximum": 5000,
+        "guidance": "optical",
+        "minimum": 30,
+        "name": "120mm_9m37m_rocket_launcher",
+        "physical_maximum": 10000,
+        "reload_seconds": 15
+      }
     ]
   },
   "ussr_ai_aew_radar_55j6": {
-    "unit_class": "ussr_ai_aew_radar_55j6",
-    "model": "nebo_55j6",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": null,
-        "maximum": null,
-        "band": 5,
-        "scope_ranges": [
-          40000.0,
-          80000.0,
-          120000.0
-        ],
-        "designation_range": 180000.0,
-        "ai": false,
-        "sensor": "su_55zh6",
-        "range_status": "unresolved_internal",
-        "raw_nominal": 2.0,
-        "raw_maximum": 2.0
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "\"Nebo\" radar"
-    ]
+    ],
+    "maximum_speed_kph": 0,
+    "model": "nebo_55j6",
+    "on_radar_as": "radar",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 5,
+        "designation_range": 180000,
+        "kind": "detection",
+        "maximum": null,
+        "nominal": null,
+        "range_status": "unresolved_internal",
+        "raw_maximum": 2,
+        "raw_nominal": 2,
+        "scope_ranges": [
+          40000,
+          80000,
+          120000
+        ],
+        "sensor": "su_55zh6"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_ai_aew_radar_55j6",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "ussr_ai_mlrs_9a52_2_smerch": {
-    "unit_class": "ussr_ai_mlrs_9a52_2_smerch",
-    "model": "rszo_smerch",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "mlrs",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "300mm_9k58_rocket_launcher",
-        "ammo": 12,
-        "minimum": 15000.0,
-        "effective_maximum": 45500.0,
-        "physical_maximum": 45500.0,
-        "ai_minimum": null,
-        "ai_maximum": 45000.0,
-        "guidance": null,
-        "reload_seconds": 8.0
-      }
-    ],
-    "engagement_range": 45500.0,
+    "ai_attack_max_radius": 45000,
+    "ai_engagement_range": 45000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 45000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 45000.0,
+    "engagement_range": 45500,
+    "exp_class": "exp_tank",
     "hud_names": [
       "\"Smerch\" MLRS"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "rszo_smerch",
+    "on_radar_as": "mlrs",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_ai_mlrs_9a52_2_smerch",
+    "unit_type": "typeLightTank",
+    "weapons": [
+      {
+        "ai_maximum": 45000,
+        "ai_minimum": null,
+        "ammo": 12,
+        "effective_maximum": 45500,
+        "guidance": null,
+        "minimum": 15000,
+        "name": "300mm_9k58_rocket_launcher",
+        "physical_maximum": 45500,
+        "reload_seconds": 8
+      }
     ]
   },
   "ussr_ai_sam_launcher_5p85se": {
-    "unit_class": "ussr_ai_sam_launcher_5p85se",
-    "model": "s300ps_launcher_5p85se",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "sam",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "508mm_s300ps_5v55_rocket_launcher",
-        "ammo": 4,
-        "minimum": 8000.0,
-        "effective_maximum": 75000.0,
-        "physical_maximum": 75000.0,
-        "ai_minimum": 5000.0,
-        "ai_maximum": 70000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 75000.0,
+    "ai_attack_max_radius": 75000,
+    "ai_engagement_range": 70000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 75000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 70000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 75000,
+    "exp_class": "exp_tank",
     "hud_names": [
       "\"S-300\" launcher"
+    ],
+    "maximum_speed_kph": 0,
+    "model": "s300ps_launcher_5p85se",
+    "on_radar_as": "sam",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_launcher_5p85se",
+    "unit_type": "typeLightTank",
+    "weapons": [
+      {
+        "ai_maximum": 70000,
+        "ai_minimum": 5000,
+        "ammo": 4,
+        "effective_maximum": 75000,
+        "guidance": "radar",
+        "minimum": 8000,
+        "name": "508mm_s300ps_5v55_rocket_launcher",
+        "physical_maximum": 75000,
+        "reload_seconds": 15
+      }
     ]
   },
   "ussr_ai_sam_launcher_9a310": {
-    "unit_class": "ussr_ai_sam_launcher_9a310",
-    "model": "ussr_buk_m1",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 100000.0,
-        "maximum": 60000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "su_9s35",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "400mm_buk_9m38_early_rocket_launcher",
-        "ammo": 4,
-        "minimum": 3000.0,
-        "effective_maximum": 35000.0,
-        "physical_maximum": 35000.0,
-        "ai_minimum": 3000.0,
-        "ai_maximum": 35000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 35000.0,
+    "ai_attack_max_radius": 35000,
+    "ai_engagement_range": 35000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 35000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 35000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 35000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "\"BUK\" TELAR"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "ussr_buk_m1",
+    "on_radar_as": "sam",
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 8,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 60000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_9s35"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_launcher_9a310",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 35000,
+        "ai_minimum": 3000,
+        "ammo": 4,
+        "effective_maximum": 35000,
+        "guidance": "radar",
+        "minimum": 3000,
+        "name": "400mm_buk_9m38_early_rocket_launcher",
+        "physical_maximum": 35000,
+        "reload_seconds": 15
+      }
     ]
   },
   "ussr_ai_sam_launcher_9a310m1": {
-    "unit_class": "ussr_ai_sam_launcher_9a310m1",
-    "model": "ussr_buk_m1",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 100000.0,
-        "maximum": 60000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "su_9s35m1",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "400mm_buk_9m38_rocket_launcher",
-        "ammo": 4,
-        "minimum": 3000.0,
-        "effective_maximum": 35000.0,
-        "physical_maximum": 35000.0,
-        "ai_minimum": 3000.0,
-        "ai_maximum": 35000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 35000.0,
+    "ai_attack_max_radius": 35000,
+    "ai_engagement_range": 35000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 35000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 35000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 35000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "\"BUK-M1\" TELAR"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "ussr_buk_m1",
+    "on_radar_as": "sam",
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 8,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 60000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_9s35m1"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_launcher_9a310m1",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 35000,
+        "ai_minimum": 3000,
+        "ammo": 4,
+        "effective_maximum": 35000,
+        "guidance": "radar",
+        "minimum": 3000,
+        "name": "400mm_buk_9m38_rocket_launcher",
+        "physical_maximum": 35000,
+        "reload_seconds": 15
+      }
     ]
   },
   "ussr_ai_sam_launcher_s_75": {
-    "unit_class": "ussr_ai_sam_launcher_s_75",
-    "model": "s75m_launcher_sm90",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "sam",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "654mm_s_75_v_755_20ds_rocket_launcher",
-        "ammo": 10,
-        "minimum": 5000.0,
-        "effective_maximum": 60000.0,
-        "physical_maximum": 60000.0,
-        "ai_minimum": 2000.0,
-        "ai_maximum": 51000.0,
-        "guidance": "saclos",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 60000.0,
+    "ai_attack_max_radius": 60000,
+    "ai_engagement_range": 51000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 60000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 51000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 60000,
+    "exp_class": "exp_tank",
     "hud_names": [
       "SM-90 launcher"
+    ],
+    "maximum_speed_kph": 0,
+    "model": "s75m_launcher_sm90",
+    "on_radar_as": "sam",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_launcher_s_75",
+    "unit_type": "typeLightTank",
+    "weapons": [
+      {
+        "ai_maximum": 51000,
+        "ai_minimum": 2000,
+        "ammo": 10,
+        "effective_maximum": 60000,
+        "guidance": "saclos",
+        "minimum": 5000,
+        "name": "654mm_s_75_v_755_20ds_rocket_launcher",
+        "physical_maximum": 60000,
+        "reload_seconds": 15
+      }
     ]
   },
   "ussr_ai_sam_radar_5n63s": {
-    "unit_class": "ussr_ai_sam_radar_5n63s",
-    "model": "s300ps_command_post_5n63s",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "radar",
-    "exp_class": "exp_ai_sam_tracking_radar",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 100000.0,
-        "maximum": 180000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "su_5n63s",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 75000,
+    "ai_engagement_range": 75000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 75000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 75000.0,
+    "engagement_range": null,
+    "exp_class": "exp_ai_sam_tracking_radar",
     "hud_names": [
       "\"S-300\" radar"
-    ]
+    ],
+    "maximum_speed_kph": 0,
+    "model": "s300ps_command_post_5n63s",
+    "on_radar_as": "radar",
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 8,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 180000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_5n63s"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_radar_5n63s",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "ussr_ai_sam_radar_5n64s": {
-    "unit_class": "ussr_ai_sam_radar_5n64s",
-    "model": "s300ps_5n64s",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 100000.0,
-        "maximum": 180000.0,
-        "band": 5,
-        "scope_ranges": [
-          150000.0,
-          300000.0
-        ],
-        "designation_range": 180000.0,
-        "ai": false,
-        "sensor": "su_5n64s",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "\"S-300\" radar"
-    ]
+    ],
+    "maximum_speed_kph": 0,
+    "model": "s300ps_5n64s",
+    "on_radar_as": "radar",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 5,
+        "designation_range": 180000,
+        "kind": "detection",
+        "maximum": 180000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          150000,
+          300000
+        ],
+        "sensor": "su_5n64s"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_radar_5n64s",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "ussr_ai_sam_radar_9s18": {
-    "unit_class": "ussr_ai_sam_radar_9s18",
-    "model": "9s18_m3",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 100000.0,
-        "maximum": 180000.0,
-        "band": 5,
-        "scope_ranges": [
-          40000.0,
-          80000.0,
-          120000.0
-        ],
-        "designation_range": 180000.0,
-        "ai": false,
-        "sensor": "su_9s18",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "\"BUK\" TADS"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "9s18_m3",
+    "on_radar_as": "radar",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 5,
+        "designation_range": 180000,
+        "kind": "detection",
+        "maximum": 180000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          40000,
+          80000,
+          120000
+        ],
+        "sensor": "su_9s18"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_radar_9s18",
+    "unit_type": "typeSPAA",
+    "weapons": []
   },
   "ussr_ai_sam_radar_9s18m1": {
-    "unit_class": "ussr_ai_sam_radar_9s18m1",
-    "model": "9s18_m3",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 100000.0,
-        "maximum": 180000.0,
-        "band": 5,
-        "scope_ranges": [
-          40000.0,
-          80000.0,
-          120000.0
-        ],
-        "designation_range": 180000.0,
-        "ai": false,
-        "sensor": "su_9s18m1",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "\"BUK-M1\" TADS"
-    ]
-  },
-  "ussr_ai_sam_radar_p_12": {
-    "unit_class": "ussr_ai_sam_radar_p_12",
-    "model": "s75m_radar_p12ma",
-    "unit_type": "typeLightTank",
+    ],
+    "maximum_speed_kph": 75,
+    "model": "9s18_m3",
     "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
     "sensors": {
       "detection": {
-        "kind": "detection",
-        "nominal": 140000.0,
-        "maximum": 200000.0,
-        "band": 6,
-        "scope_ranges": [
-          50000.0,
-          100000.0,
-          200000.0
-        ],
-        "designation_range": 60000.0,
         "ai": false,
-        "sensor": "su_p_12ma",
-        "range_status": "confirmed"
+        "band": 5,
+        "designation_range": 180000,
+        "kind": "detection",
+        "maximum": 180000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          40000,
+          80000,
+          120000
+        ],
+        "sensor": "su_9s18m1"
       }
     },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_radar_9s18m1",
+    "unit_type": "typeSPAA",
+    "weapons": []
+  },
+  "ussr_ai_sam_radar_p_12": {
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "P-12 radar"
-    ]
-  },
-  "ussr_ai_sam_radar_snr_75": {
-    "unit_class": "ussr_ai_sam_radar_snr_75",
-    "model": "snr_75",
-    "unit_type": "typeLightTank",
+    ],
+    "maximum_speed_kph": 0,
+    "model": "s75m_radar_p12ma",
     "on_radar_as": "radar",
-    "exp_class": "exp_ai_sam_tracking_radar",
-    "maximum_speed_kph": 0.0,
-    "target_channels": null,
     "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 70000.0,
-        "maximum": 120000.0,
-        "band": 6,
-        "scope_ranges": [],
-        "designation_range": null,
+      "detection": {
         "ai": false,
-        "sensor": "su_snr_75",
-        "range_status": "confirmed"
+        "band": 6,
+        "designation_range": 60000,
+        "kind": "detection",
+        "maximum": 200000,
+        "nominal": 140000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          50000,
+          100000,
+          200000
+        ],
+        "sensor": "su_p_12ma"
       }
     },
-    "weapons": [],
-    "engagement_range": null,
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_radar_p_12",
+    "unit_type": "typeLightTank",
+    "weapons": []
+  },
+  "ussr_ai_sam_radar_snr_75": {
+    "ai_attack_max_radius": 50000,
+    "ai_engagement_range": 50000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 50000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 50000.0,
+    "engagement_range": null,
+    "exp_class": "exp_ai_sam_tracking_radar",
     "hud_names": [
       "SNR-75 radar"
-    ]
+    ],
+    "maximum_speed_kph": 0,
+    "model": "snr_75",
+    "on_radar_as": "radar",
+    "sensors": {
+      "tracking": {
+        "ai": false,
+        "band": 6,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 120000,
+        "nominal": 70000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_snr_75"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_ai_sam_radar_snr_75",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "ussr_ai_tbm_9k79_tochka": {
-    "unit_class": "ussr_ai_tbm_9k79_tochka",
-    "model": "9k79_tochka",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "tbm_launcher",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "650mm_9k79_rocket_launcher",
-        "ammo": 1,
-        "minimum": 15000.0,
-        "effective_maximum": 70000.0,
-        "physical_maximum": 70000.0,
-        "ai_minimum": 15000.0,
-        "ai_maximum": 70000.0,
-        "guidance": "sns",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 70000.0,
+    "ai_attack_max_radius": 70000,
+    "ai_engagement_range": 70000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 70000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 70000.0,
+    "engagement_range": 70000,
+    "exp_class": "exp_tank",
     "hud_names": [
       "\"Tochka\" TBM"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "9k79_tochka",
+    "on_radar_as": "tbm_launcher",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_ai_tbm_9k79_tochka",
+    "unit_type": "typeLightTank",
+    "weapons": [
+      {
+        "ai_maximum": 70000,
+        "ai_minimum": 15000,
+        "ammo": 1,
+        "effective_maximum": 70000,
+        "guidance": "sns",
+        "minimum": 15000,
+        "name": "650mm_9k79_rocket_launcher",
+        "physical_maximum": 70000,
+        "reload_seconds": 15
+      }
     ]
   },
   "ussr_aircraftcarrier_admiral_kuznetsov_ai": {
-    "unit_class": "ussr_aircraftcarrier_admiral_kuznetsov_ai",
-    "model": "aircraftcarrier_admiral_kuznetsov",
-    "unit_type": "typeShip",
-    "on_radar_as": null,
+    "ai_attack_max_radius": 12000,
+    "ai_engagement_range": 8500,
+    "ai_gun_range": 4000,
+    "ai_shell_max_radius": 20000,
+    "ai_target_priority_max_radius": 30000,
+    "engagement_range": 8000,
     "exp_class": "exp_cv_ship",
-    "maximum_speed_kph": 80.0,
-    "target_channels": 8,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 120000.0,
-        "maximum": 150000.0,
-        "band": 5,
-        "scope_ranges": [
-          60000.0
-        ],
-        "designation_range": 150000.0,
-        "ai": false,
-        "sensor": "su_mr_750_fregat_ma",
-        "range_status": "confirmed"
-      },
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 25000.0,
-        "maximum": 30000.0,
-        "band": 6,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "su_3r95",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "152mm_9m311_naval_rocket_launcher",
-        "ammo": 32,
-        "minimum": 30.0,
-        "effective_maximum": 8000.0,
-        "physical_maximum": 8000.0,
-        "ai_minimum": 800.0,
-        "ai_maximum": 8500.0,
-        "guidance": "saclos",
-        "reload_seconds": 1.0
-      },
-      {
-        "name": "30mm_54_ak630_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 6000.0,
-        "physical_maximum": 6000.0,
-        "ai_minimum": 0.05,
-        "ai_maximum": 4000.0,
-        "guidance": null,
-        "reload_seconds": 30.0
-      }
-    ],
-    "engagement_range": 8000.0,
-    "ai_gun_range": 4000.0,
-    "ai_attack_max_radius": 12000.0,
-    "ai_shell_max_radius": 20000.0,
-    "ai_target_priority_max_radius": 30000.0,
-    "ai_engagement_range": 8500.0,
     "hud_names": [
       "Admiral Kuznetsov"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "aircraftcarrier_admiral_kuznetsov",
+    "on_radar_as": null,
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 5,
+        "designation_range": 150000,
+        "kind": "detection",
+        "maximum": 150000,
+        "nominal": 120000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          60000
+        ],
+        "sensor": "su_mr_750_fregat_ma"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 6,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 30000,
+        "nominal": 25000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_3r95"
+      }
+    },
+    "target_channels": 8,
+    "unit_class": "ussr_aircraftcarrier_admiral_kuznetsov_ai",
+    "unit_type": "typeShip",
+    "weapons": [
+      {
+        "ai_maximum": 8500,
+        "ai_minimum": 800,
+        "ammo": 32,
+        "effective_maximum": 8000,
+        "guidance": "saclos",
+        "minimum": 30,
+        "name": "152mm_9m311_naval_rocket_launcher",
+        "physical_maximum": 8000,
+        "reload_seconds": 1
+      },
+      {
+        "ai_maximum": 4000,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 6000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "30mm_54_ak630_naval_user_cannon",
+        "physical_maximum": 6000,
+        "reload_seconds": 30
+      }
     ]
   },
   "ussr_aircraftcarrier_baku_ai": {
-    "unit_class": "ussr_aircraftcarrier_baku_ai",
-    "model": "aircraftcarrier_baku",
-    "unit_type": "typeShip",
-    "on_radar_as": null,
+    "ai_attack_max_radius": 15000,
+    "ai_engagement_range": 15000,
+    "ai_gun_range": 15000,
+    "ai_shell_max_radius": 10000,
+    "ai_target_priority_max_radius": 50000,
+    "engagement_range": 15000,
     "exp_class": "exp_cv_ship",
-    "maximum_speed_kph": 80.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [
-      {
-        "name": "100mm_70_ak100_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 15000.0,
-        "physical_maximum": 15000.0,
-        "ai_minimum": 0.05,
-        "ai_maximum": 15000.0,
-        "guidance": null,
-        "reload_seconds": 3.0
-      },
-      {
-        "name": "30mm_54_ak630_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 6000.0,
-        "physical_maximum": 6000.0,
-        "ai_minimum": 0.05,
-        "ai_maximum": 4000.0,
-        "guidance": null,
-        "reload_seconds": 30.0
-      }
-    ],
-    "engagement_range": 15000.0,
-    "ai_gun_range": 15000.0,
-    "ai_attack_max_radius": 15000.0,
-    "ai_shell_max_radius": 10000.0,
-    "ai_target_priority_max_radius": 50000.0,
-    "ai_engagement_range": 15000.0,
     "hud_names": [
       "Baku"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "aircraftcarrier_baku",
+    "on_radar_as": null,
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_aircraftcarrier_baku_ai",
+    "unit_type": "typeShip",
+    "weapons": [
+      {
+        "ai_maximum": 15000,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 15000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "100mm_70_ak100_naval_user_cannon",
+        "physical_maximum": 15000,
+        "reload_seconds": 3
+      },
+      {
+        "ai_maximum": 4000,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 6000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "30mm_54_ak630_naval_user_cannon",
+        "physical_maximum": 6000,
+        "reload_seconds": 30
+      }
     ]
   },
   "ussr_bmp_1": {
-    "unit_class": "ussr_bmp_1",
-    "model": "bmp_1",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "ifv",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "BMP-1"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "bmp_1",
+    "on_radar_as": "ifv",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_bmp_1",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "ussr_bmp_2": {
-    "unit_class": "ussr_bmp_2",
-    "model": "bmp_2",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "ifv",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 1,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "BMP-2"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "bmp_2",
+    "on_radar_as": "ifv",
+    "sensors": {},
+    "target_channels": 1,
+    "unit_class": "ussr_bmp_2",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "ussr_bmp_3": {
-    "unit_class": "ussr_bmp_3",
-    "model": "bmp_3",
-    "unit_type": "typeLightTank",
-    "on_radar_as": "ifv",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 1,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "BMP-3"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "bmp_3",
+    "on_radar_as": "ifv",
+    "sensors": {},
+    "target_channels": 1,
+    "unit_class": "ussr_bmp_3",
+    "unit_type": "typeLightTank",
+    "weapons": []
   },
   "ussr_buk_m3_fcs": {
-    "unit_class": "ussr_buk_m3_fcs",
-    "model": "9s18_m3",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "radar",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 60000.0,
-        "maximum": 60000.0,
-        "band": 5,
-        "scope_ranges": [],
-        "designation_range": 60000.0,
-        "ai": true,
-        "sensor": "su_9s18m3_ai",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "\"BUK-M3\" (TADS)"
-    ]
-  },
-  "ussr_buk_m3_launcher": {
-    "unit_class": "ussr_buk_m3_launcher",
-    "model": "9a317m",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
+    ],
+    "maximum_speed_kph": 75,
+    "model": "9s18_m3",
+    "on_radar_as": "radar",
     "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 70000.0,
-        "maximum": 120000.0,
-        "band": 6,
+      "detection": {
+        "ai": true,
+        "band": 5,
+        "designation_range": 60000,
+        "kind": "detection",
+        "maximum": 60000,
+        "nominal": 60000,
+        "range_status": "confirmed",
         "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "su_viking",
-        "range_status": "confirmed"
-      },
-      "irst": {
-        "kind": "irst",
-        "nominal": 21000.0,
-        "maximum": 23000.0,
-        "band": -1,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "su_viking",
-        "range_status": "confirmed"
+        "sensor": "su_9s18m3_ai"
       }
     },
-    "weapons": [
-      {
-        "name": "360mm_9m317m_user_cannon",
-        "ammo": 6,
-        "minimum": 1000.0,
-        "effective_maximum": 70000.0,
-        "physical_maximum": 70000.0,
-        "ai_minimum": 1500.0,
-        "ai_maximum": 70000.0,
-        "guidance": "radar",
-        "reload_seconds": 15.0
-      }
-    ],
-    "engagement_range": 70000.0,
+    "target_channels": null,
+    "unit_class": "ussr_buk_m3_fcs",
+    "unit_type": "typeSPAA",
+    "weapons": []
+  },
+  "ussr_buk_m3_launcher": {
+    "ai_attack_max_radius": 70000,
+    "ai_engagement_range": 70000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 70000.0,
-    "ai_shell_max_radius": 80000.0,
-    "ai_target_priority_max_radius": 80000.0,
-    "ai_engagement_range": 70000.0,
+    "ai_shell_max_radius": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 70000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "\"BUK-M3\" (TELAR)"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "9a317m",
+    "on_radar_as": "sam",
+    "sensors": {
+      "irst": {
+        "ai": false,
+        "band": -1,
+        "designation_range": null,
+        "kind": "irst",
+        "maximum": 23000,
+        "nominal": 21000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_viking"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 6,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 120000,
+        "nominal": 70000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_viking"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_buk_m3_launcher",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 70000,
+        "ai_minimum": 1500,
+        "ammo": 6,
+        "effective_maximum": 70000,
+        "guidance": "radar",
+        "minimum": 1000,
+        "name": "360mm_9m317m_user_cannon",
+        "physical_maximum": 70000,
+        "reload_seconds": 15
+      }
     ]
   },
   "ussr_destroyer_pr56_bravy_ec": {
-    "unit_class": "ussr_destroyer_pr56_bravy_ec",
-    "model": "destroyer_pr56_bravy",
-    "unit_type": "typeDestroyer",
-    "on_radar_as": "missile_destroyer",
+    "ai_attack_max_radius": 10000,
+    "ai_engagement_range": 10000,
+    "ai_gun_range": 10000,
+    "ai_shell_max_radius": 7000,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 16000,
     "exp_class": "exp_destroyer",
-    "maximum_speed_kph": 80.0,
-    "target_channels": 2,
+    "hud_names": [
+      "Bravy"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "destroyer_pr56_bravy",
+    "on_radar_as": "missile_destroyer",
     "sensors": {
       "detection": {
-        "kind": "detection",
-        "nominal": 120000.0,
-        "maximum": 150000.0,
-        "band": 4,
-        "scope_ranges": [
-          10000.0,
-          50000.0,
-          100000.0,
-          150000.0
-        ],
-        "designation_range": 30000.0,
         "ai": false,
-        "sensor": "su_foot_n",
-        "range_status": "confirmed"
+        "band": 4,
+        "designation_range": 30000,
+        "kind": "detection",
+        "maximum": 150000,
+        "nominal": 120000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          10000,
+          50000,
+          100000,
+          150000
+        ],
+        "sensor": "su_foot_n"
       },
       "tracking": {
-        "kind": "tracking",
-        "nominal": 25000.0,
-        "maximum": 30000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": null,
         "ai": false,
-        "sensor": "su_foot_b",
-        "range_status": "confirmed"
+        "band": 8,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 30000,
+        "nominal": 25000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_foot_b"
       }
     },
+    "target_channels": 2,
+    "unit_class": "ussr_destroyer_pr56_bravy_ec",
+    "unit_type": "typeDestroyer",
     "weapons": [
       {
-        "name": "rocket_5v24_v600p_naval_rocket_launcher",
+        "ai_maximum": 10000,
+        "ai_minimum": 500,
         "ammo": 18,
-        "minimum": 0,
-        "effective_maximum": 16000.0,
-        "physical_maximum": 16000.0,
-        "ai_minimum": 500.0,
-        "ai_maximum": 10000.0,
+        "effective_maximum": 16000,
         "guidance": "saclos",
-        "reload_seconds": 50.0
+        "minimum": 0,
+        "name": "rocket_5v24_v600p_naval_rocket_launcher",
+        "physical_maximum": 16000,
+        "reload_seconds": 50
       },
       {
-        "name": "130mm_58_sm_2_1_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
+        "ai_maximum": 10000,
         "ai_minimum": 0.05,
-        "ai_maximum": 10000.0,
+        "ammo": null,
+        "effective_maximum": 10000,
         "guidance": null,
+        "minimum": 0,
+        "name": "130mm_58_sm_2_1_naval_user_cannon",
+        "physical_maximum": 10000,
         "reload_seconds": null
       },
       {
-        "name": "45mm_89_sm_20_zif_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
+        "ai_maximum": 3000,
         "ai_minimum": 0.05,
-        "ai_maximum": 3000.0,
+        "ammo": null,
+        "effective_maximum": 10000,
         "guidance": null,
+        "minimum": 0,
+        "name": "45mm_89_sm_20_zif_naval_user_cannon",
+        "physical_maximum": 10000,
         "reload_seconds": 0.375
       }
-    ],
-    "engagement_range": 16000.0,
-    "ai_gun_range": 10000.0,
-    "ai_attack_max_radius": 10000.0,
-    "ai_shell_max_radius": 7000.0,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 10000.0,
-    "hud_names": [
-      "Bravy"
     ]
   },
   "ussr_destroyer_rckt_pr956": {
-    "unit_class": "ussr_destroyer_rckt_pr956",
-    "model": "destroyer_rckt_pr956",
-    "unit_type": "typeDestroyer",
-    "on_radar_as": "missile_destroyer",
+    "ai_attack_max_radius": 35000,
+    "ai_engagement_range": 35000,
+    "ai_gun_range": 10000,
+    "ai_shell_max_radius": 35000,
+    "ai_target_priority_max_radius": 60000,
+    "engagement_range": 35000,
     "exp_class": "exp_destroyer",
-    "maximum_speed_kph": 80.0,
-    "target_channels": null,
+    "hud_names": [
+      "Project 956"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "destroyer_rckt_pr956",
+    "on_radar_as": "missile_destroyer",
     "sensors": {
       "detection": {
-        "kind": "detection",
-        "nominal": 120000.0,
-        "maximum": 150000.0,
-        "band": 5,
-        "scope_ranges": [
-          60000.0
-        ],
-        "designation_range": 150000.0,
         "ai": false,
-        "sensor": "su_mr_750_fregat_ma",
-        "range_status": "confirmed"
+        "band": 5,
+        "designation_range": 150000,
+        "kind": "detection",
+        "maximum": 150000,
+        "nominal": 120000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          60000
+        ],
+        "sensor": "su_mr_750_fregat_ma"
       },
       "tracking": {
-        "kind": "tracking",
-        "nominal": 100000.0,
-        "maximum": 60000.0,
-        "band": 8,
-        "scope_ranges": [],
-        "designation_range": null,
         "ai": true,
-        "sensor": "su_mr_90_ai",
-        "range_status": "confirmed"
+        "band": 8,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 60000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_mr_90_ai"
       }
     },
+    "target_channels": null,
+    "unit_class": "ussr_destroyer_rckt_pr956",
+    "unit_type": "typeDestroyer",
     "weapons": [
       {
-        "name": "rocket_3c90_uragan_naval_rocket_launcher",
+        "ai_maximum": 35000,
+        "ai_minimum": 1500,
         "ammo": null,
-        "minimum": 3000.0,
-        "effective_maximum": 35000.0,
-        "physical_maximum": 35000.0,
-        "ai_minimum": 1500.0,
-        "ai_maximum": 35000.0,
+        "effective_maximum": 35000,
         "guidance": "radar",
-        "reload_seconds": 6.0
+        "minimum": 3000,
+        "name": "rocket_3c90_uragan_naval_rocket_launcher",
+        "physical_maximum": 35000,
+        "reload_seconds": 6
       },
       {
-        "name": "130mm_70_ak_130_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
+        "ai_maximum": 10000,
         "ai_minimum": 0.05,
-        "ai_maximum": 10000.0,
+        "ammo": null,
+        "effective_maximum": 10000,
         "guidance": null,
+        "minimum": 0,
+        "name": "130mm_70_ak_130_naval_user_cannon",
+        "physical_maximum": 10000,
         "reload_seconds": null
       },
       {
-        "name": "30mm_54_ak630m_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 6000.0,
-        "physical_maximum": 6000.0,
+        "ai_maximum": 4000,
         "ai_minimum": 0.05,
-        "ai_maximum": 4000.0,
+        "ammo": null,
+        "effective_maximum": 6000,
         "guidance": null,
-        "reload_seconds": 30.0
+        "minimum": 0,
+        "name": "30mm_54_ak630m_naval_user_cannon",
+        "physical_maximum": 6000,
+        "reload_seconds": 30
       }
-    ],
-    "engagement_range": 35000.0,
-    "ai_gun_range": 10000.0,
-    "ai_attack_max_radius": 35000.0,
-    "ai_shell_max_radius": 35000.0,
-    "ai_target_priority_max_radius": 60000.0,
-    "ai_engagement_range": 35000.0,
-    "hud_names": [
-      "Project 956"
     ]
   },
   "ussr_mpk_pr_1124_ec": {
-    "unit_class": "ussr_mpk_pr_1124_ec",
-    "model": "mpk_pr_1124",
-    "unit_type": "typeTorpedoGunBoat",
-    "on_radar_as": "missile_corvette",
+    "ai_attack_max_radius": 10300,
+    "ai_engagement_range": 10300,
+    "ai_gun_range": 4500,
+    "ai_shell_max_radius": 10300,
+    "ai_target_priority_max_radius": 30000,
+    "engagement_range": 10300,
     "exp_class": "exp_torpedo_gun_boat",
-    "maximum_speed_kph": 80.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 120000.0,
-        "maximum": 150000.0,
-        "band": 0,
-        "scope_ranges": [
-          10000.0,
-          20000.0,
-          50000.0
-        ],
-        "designation_range": 150000.0,
-        "ai": false,
-        "sensor": "su_mr_302_rubka",
-        "range_status": "confirmed"
-      },
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 25000.0,
-        "maximum": 30000.0,
-        "band": 7,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "su_mr_103_bars",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "rocket_9m33_naval_rocket_launcher",
-        "ammo": 22,
-        "minimum": 500.0,
-        "effective_maximum": 10300.0,
-        "physical_maximum": 10300.0,
-        "ai_minimum": 1000.0,
-        "ai_maximum": 10300.0,
-        "guidance": "saclos",
-        "reload_seconds": 16.0
-      },
-      {
-        "name": "57mm_ak_725_naval_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 10000.0,
-        "physical_maximum": 10000.0,
-        "ai_minimum": 0.05,
-        "ai_maximum": 4500.0,
-        "guidance": null,
-        "reload_seconds": 10.0
-      }
-    ],
-    "engagement_range": 10300.0,
-    "ai_gun_range": 4500.0,
-    "ai_attack_max_radius": 10300.0,
-    "ai_shell_max_radius": 10300.0,
-    "ai_target_priority_max_radius": 30000.0,
-    "ai_engagement_range": 10300.0,
     "hud_names": [
       "MPK-33"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "mpk_pr_1124",
+    "on_radar_as": "missile_corvette",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 0,
+        "designation_range": 150000,
+        "kind": "detection",
+        "maximum": 150000,
+        "nominal": 120000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          10000,
+          20000,
+          50000
+        ],
+        "sensor": "su_mr_302_rubka"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 7,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 30000,
+        "nominal": 25000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_mr_103_bars"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_mpk_pr_1124_ec",
+    "unit_type": "typeTorpedoGunBoat",
+    "weapons": [
+      {
+        "ai_maximum": 10300,
+        "ai_minimum": 1000,
+        "ammo": 22,
+        "effective_maximum": 10300,
+        "guidance": "saclos",
+        "minimum": 500,
+        "name": "rocket_9m33_naval_rocket_launcher",
+        "physical_maximum": 10300,
+        "reload_seconds": 16
+      },
+      {
+        "ai_maximum": 4500,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 10000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "57mm_ak_725_naval_user_cannon",
+        "physical_maximum": 10000,
+        "reload_seconds": 10
+      }
     ]
   },
   "ussr_pantsyr_s1": {
-    "unit_class": "ussr_pantsyr_s1",
-    "model": "pantsyr_s1",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
+    "ai_attack_max_radius": 20000,
+    "ai_engagement_range": 20000,
+    "ai_gun_range": 4000,
+    "ai_shell_max_radius": 3000,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 20000,
     "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 4,
+    "hud_names": [
+      "Pantsir-S1"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "pantsyr_s1",
+    "on_radar_as": "sam",
     "sensors": {
       "detection": {
-        "kind": "detection",
-        "nominal": null,
-        "maximum": null,
-        "band": 5,
-        "scope_ranges": [
-          15000.0,
-          30000.0,
-          50000.0
-        ],
-        "designation_range": 40000.0,
         "ai": true,
-        "sensor": "su_1rs1_ai",
+        "band": 5,
+        "designation_range": 40000,
+        "kind": "detection",
+        "maximum": null,
+        "nominal": null,
         "range_status": "unresolved_internal",
-        "raw_nominal": 10.0,
-        "raw_maximum": 10.0
+        "raw_maximum": 10,
+        "raw_nominal": 10,
+        "scope_ranges": [
+          15000,
+          30000,
+          50000
+        ],
+        "sensor": "su_1rs1_ai"
+      },
+      "irst": {
+        "ai": true,
+        "band": -1,
+        "designation_range": null,
+        "kind": "irst",
+        "maximum": 23000,
+        "nominal": 21000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_1rs2_ai"
       },
       "tracking": {
-        "kind": "tracking",
-        "nominal": 30000.0,
-        "maximum": 30000.0,
+        "ai": true,
         "band": [
           10,
           5
         ],
-        "scope_ranges": [],
         "designation_range": null,
-        "ai": true,
-        "sensor": "su_1rs2_ai",
-        "range_status": "confirmed"
-      },
-      "irst": {
-        "kind": "irst",
-        "nominal": 21000.0,
-        "maximum": 23000.0,
-        "band": -1,
+        "kind": "tracking",
+        "maximum": 30000,
+        "nominal": 30000,
+        "range_status": "confirmed",
         "scope_ranges": [],
-        "designation_range": null,
-        "ai": true,
-        "sensor": "su_1rs2_ai",
-        "range_status": "confirmed"
+        "sensor": "su_1rs2_ai"
       }
     },
+    "target_channels": 4,
+    "unit_class": "ussr_pantsyr_s1",
+    "unit_type": "typeSPAA",
     "weapons": [
       {
-        "name": "170mm_57e6_rocket_launcher",
+        "ai_maximum": 20000,
+        "ai_minimum": 800,
         "ammo": 12,
-        "minimum": 1200.0,
-        "effective_maximum": 20000.0,
-        "physical_maximum": 20000.0,
-        "ai_minimum": 800.0,
-        "ai_maximum": 20000.0,
+        "effective_maximum": 20000,
         "guidance": "saclos",
-        "reload_seconds": 1.0
+        "minimum": 1200,
+        "name": "170mm_57e6_rocket_launcher",
+        "physical_maximum": 20000,
+        "reload_seconds": 1
       },
       {
-        "name": "30mm_2a38m_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 3000.0,
-        "physical_maximum": 3000.0,
+        "ai_maximum": 4000,
         "ai_minimum": 0.1,
-        "ai_maximum": 4000.0,
+        "ammo": null,
+        "effective_maximum": 3000,
         "guidance": null,
-        "reload_seconds": 4.0
+        "minimum": 0,
+        "name": "30mm_2a38m_user_cannon",
+        "physical_maximum": 3000,
+        "reload_seconds": 4
       }
-    ],
-    "engagement_range": 20000.0,
-    "ai_gun_range": 4000.0,
-    "ai_attack_max_radius": 20000.0,
-    "ai_shell_max_radius": 3000.0,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 20000.0,
-    "hud_names": [
-      "Pantsir-S1"
     ]
   },
   "ussr_t_54_1951": {
-    "unit_class": "ussr_t_54_1951",
-    "model": "t_54_1951",
-    "unit_type": "typeMediumTank",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "T-54"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "t_54_1951",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_t_54_1951",
+    "unit_type": "typeMediumTank",
+    "weapons": []
   },
   "ussr_t_80bvm": {
-    "unit_class": "ussr_t_80bvm",
-    "model": "t_80bvm",
-    "unit_type": "typeMediumTank",
-    "on_radar_as": "tracked",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 1,
-    "sensors": {
-      "tracking": {
-        "kind": "tracking",
-        "nominal": 10000.0,
-        "maximum": 12000.0,
-        "band": -1,
-        "scope_ranges": [],
-        "designation_range": null,
-        "ai": false,
-        "sensor": "fr_leclerc_auto_target_tracker",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [],
-    "engagement_range": null,
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
     "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
     "hud_names": [
       "T-80BVM"
-    ]
-  },
-  "ussr_t_80u": {
-    "unit_class": "ussr_t_80u",
-    "model": "t_80u",
-    "unit_type": "typeMediumTank",
+    ],
+    "maximum_speed_kph": 75,
+    "model": "t_80bvm",
     "on_radar_as": "tracked",
-    "exp_class": "exp_tank",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 1,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
-    "ai_attack_max_radius": 2000.0,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": null,
-    "ai_engagement_range": 2000.0,
-    "hud_names": [
-      "T-80U"
-    ]
-  },
-  "ussr_zprk_2s6": {
-    "unit_class": "ussr_zprk_2s6",
-    "model": "2s6",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": 1,
     "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": null,
-        "maximum": null,
-        "band": 4,
-        "scope_ranges": [
-          10000.0,
-          20000.0
-        ],
-        "designation_range": 16000.0,
-        "ai": true,
-        "sensor": "su_1rl144_search_ai",
-        "range_status": "unresolved_internal",
-        "raw_nominal": 10.0,
-        "raw_maximum": 10.0
-      },
       "tracking": {
-        "kind": "tracking",
-        "nominal": 13000.0,
-        "maximum": 16000.0,
-        "band": 9,
-        "scope_ranges": [],
-        "designation_range": null,
         "ai": false,
-        "sensor": "su_1rl144_track",
-        "range_status": "confirmed"
-      },
-      "irst": {
-        "kind": "irst",
-        "nominal": 12000.0,
-        "maximum": 14000.0,
         "band": -1,
-        "scope_ranges": [],
         "designation_range": null,
-        "ai": false,
-        "sensor": "su_1rl144_track",
-        "range_status": "confirmed"
+        "kind": "tracking",
+        "maximum": 12000,
+        "nominal": 10000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "fr_leclerc_auto_target_tracker"
       }
     },
-    "weapons": [
-      {
-        "name": "152mm_9m311_rocket_launcher",
-        "ammo": 8,
-        "minimum": 30.0,
-        "effective_maximum": 8000.0,
-        "physical_maximum": 8000.0,
-        "ai_minimum": 800.0,
-        "ai_maximum": 8500.0,
-        "guidance": "saclos",
-        "reload_seconds": 1.0
-      },
-      {
-        "name": "30mm_2a38_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 3000.0,
-        "physical_maximum": 3000.0,
-        "ai_minimum": 0.1,
-        "ai_maximum": 4000.0,
-        "guidance": null,
-        "reload_seconds": 4.0
-      }
+    "target_channels": 1,
+    "unit_class": "ussr_t_80bvm",
+    "unit_type": "typeMediumTank",
+    "weapons": []
+  },
+  "ussr_t_80u": {
+    "ai_attack_max_radius": 2000,
+    "ai_engagement_range": 2000,
+    "ai_gun_range": null,
+    "ai_shell_max_radius": null,
+    "ai_target_priority_max_radius": null,
+    "engagement_range": null,
+    "exp_class": "exp_tank",
+    "hud_names": [
+      "T-80U"
     ],
-    "engagement_range": 8000.0,
-    "ai_gun_range": 4000.0,
-    "ai_attack_max_radius": 10000.0,
-    "ai_shell_max_radius": 3000.0,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 8500.0,
+    "maximum_speed_kph": 75,
+    "model": "t_80u",
+    "on_radar_as": "tracked",
+    "sensors": {},
+    "target_channels": 1,
+    "unit_class": "ussr_t_80u",
+    "unit_type": "typeMediumTank",
+    "weapons": []
+  },
+  "ussr_zprk_2s6": {
+    "ai_attack_max_radius": 10000,
+    "ai_engagement_range": 8500,
+    "ai_gun_range": 4000,
+    "ai_shell_max_radius": 3000,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 8000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "2S6"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "2s6",
+    "on_radar_as": "sam",
+    "sensors": {
+      "detection": {
+        "ai": true,
+        "band": 4,
+        "designation_range": 16000,
+        "kind": "detection",
+        "maximum": null,
+        "nominal": null,
+        "range_status": "unresolved_internal",
+        "raw_maximum": 10,
+        "raw_nominal": 10,
+        "scope_ranges": [
+          10000,
+          20000
+        ],
+        "sensor": "su_1rl144_search_ai"
+      },
+      "irst": {
+        "ai": false,
+        "band": -1,
+        "designation_range": null,
+        "kind": "irst",
+        "maximum": 14000,
+        "nominal": 12000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_1rl144_track"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 9,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 16000,
+        "nominal": 13000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_1rl144_track"
+      }
+    },
+    "target_channels": 1,
+    "unit_class": "ussr_zprk_2s6",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 8500,
+        "ai_minimum": 800,
+        "ammo": 8,
+        "effective_maximum": 8000,
+        "guidance": "saclos",
+        "minimum": 30,
+        "name": "152mm_9m311_rocket_launcher",
+        "physical_maximum": 8000,
+        "reload_seconds": 1
+      },
+      {
+        "ai_maximum": 4000,
+        "ai_minimum": 0.1,
+        "ammo": null,
+        "effective_maximum": 3000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "30mm_2a38_user_cannon",
+        "physical_maximum": 3000,
+        "reload_seconds": 4
+      }
     ]
   },
   "ussr_zsu_23_4": {
-    "unit_class": "ussr_zsu_23_4",
-    "model": "zsu_23_4",
-    "unit_type": "typeSPAA",
-    "on_radar_as": null,
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 20000.0,
-        "maximum": 20000.0,
-        "band": 9,
-        "scope_ranges": [],
-        "designation_range": 16000.0,
-        "ai": true,
-        "sensor": "su_1rl33_ai",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "23mm_2a7_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 3000.0,
-        "physical_maximum": 3000.0,
-        "ai_minimum": 0.1,
-        "ai_maximum": 2500.0,
-        "guidance": null,
-        "reload_seconds": 4.0
-      }
-    ],
-    "engagement_range": 3000.0,
-    "ai_gun_range": 2500.0,
     "ai_attack_max_radius": null,
-    "ai_shell_max_radius": 3000.0,
-    "ai_target_priority_max_radius": 5000.0,
-    "ai_engagement_range": 2500.0,
+    "ai_engagement_range": 2500,
+    "ai_gun_range": 2500,
+    "ai_shell_max_radius": 3000,
+    "ai_target_priority_max_radius": 5000,
+    "engagement_range": 3000,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "ZSU-23-4V"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "zsu_23_4",
+    "on_radar_as": null,
+    "sensors": {
+      "detection": {
+        "ai": true,
+        "band": 9,
+        "designation_range": 16000,
+        "kind": "detection",
+        "maximum": 20000,
+        "nominal": 20000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_1rl33_ai"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_zsu_23_4",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 2500,
+        "ai_minimum": 0.1,
+        "ammo": null,
+        "effective_maximum": 3000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "23mm_2a7_user_cannon",
+        "physical_maximum": 3000,
+        "reload_seconds": 4
+      }
     ]
   },
   "ussr_zsu_23_4m4": {
-    "unit_class": "ussr_zsu_23_4m4",
-    "model": "zsu_23_4m4",
-    "unit_type": "typeSPAA",
-    "on_radar_as": "sam",
+    "ai_attack_max_radius": 10000,
+    "ai_engagement_range": 5000,
+    "ai_gun_range": 2500,
+    "ai_shell_max_radius": 3000,
+    "ai_target_priority_max_radius": 25000,
+    "engagement_range": 5200,
     "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {
-      "detection": {
-        "kind": "detection",
-        "nominal": 20000.0,
-        "maximum": 20000.0,
-        "band": 9,
-        "scope_ranges": [],
-        "designation_range": 16000.0,
-        "ai": false,
-        "sensor": "su_1rl33rt",
-        "range_status": "confirmed"
-      }
-    },
-    "weapons": [
-      {
-        "name": "72mm_9s846_4_rocket_launcher",
-        "ammo": 4,
-        "minimum": 30.0,
-        "effective_maximum": 5200.0,
-        "physical_maximum": 8000.0,
-        "ai_minimum": 600.0,
-        "ai_maximum": 5000.0,
-        "guidance": "optical",
-        "reload_seconds": 15.0
-      },
-      {
-        "name": "23mm_2a7_user_cannon",
-        "ammo": null,
-        "minimum": 0,
-        "effective_maximum": 3000.0,
-        "physical_maximum": 3000.0,
-        "ai_minimum": 0.1,
-        "ai_maximum": 2500.0,
-        "guidance": null,
-        "reload_seconds": 4.0
-      }
-    ],
-    "engagement_range": 5200.0,
-    "ai_gun_range": 2500.0,
-    "ai_attack_max_radius": 10000.0,
-    "ai_shell_max_radius": 3000.0,
-    "ai_target_priority_max_radius": 25000.0,
-    "ai_engagement_range": 5000.0,
     "hud_names": [
       "ZSU-23-4M4"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "zsu_23_4m4",
+    "on_radar_as": "sam",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 9,
+        "designation_range": 16000,
+        "kind": "detection",
+        "maximum": 20000,
+        "nominal": 20000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "su_1rl33rt"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "ussr_zsu_23_4m4",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 5000,
+        "ai_minimum": 600,
+        "ammo": 4,
+        "effective_maximum": 5200,
+        "guidance": "optical",
+        "minimum": 30,
+        "name": "72mm_9s846_4_rocket_launcher",
+        "physical_maximum": 8000,
+        "reload_seconds": 15
+      },
+      {
+        "ai_maximum": 2500,
+        "ai_minimum": 0.1,
+        "ammo": null,
+        "effective_maximum": 3000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "23mm_2a7_user_cannon",
+        "physical_maximum": 3000,
+        "reload_seconds": 4
+      }
     ]
   },
   "ussr_zsu_57_2": {
-    "unit_class": "ussr_zsu_57_2",
-    "model": "zsu_57_2",
-    "unit_type": "typeSPAA",
-    "on_radar_as": null,
-    "exp_class": "exp_SPAA",
-    "maximum_speed_kph": 60.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_SPAA",
     "hud_names": [
       "ZSU-57-2"
-    ]
+    ],
+    "maximum_speed_kph": 60,
+    "model": "zsu_57_2",
+    "on_radar_as": null,
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "ussr_zsu_57_2",
+    "unit_type": "typeSPAA",
+    "weapons": []
   },
   "wheeled_vehicles/us_m35a2_awning_ammo_carrier": {
-    "unit_class": "wheeled_vehicles/us_m35a2_awning_ammo_carrier",
-    "model": "studebaker_us6_a",
-    "unit_type": null,
-    "on_radar_as": "wheeled",
-    "exp_class": "exp_vehicle",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_vehicle",
     "hud_names": [
       "M35A2"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "studebaker_us6_a",
+    "on_radar_as": "wheeled",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "wheeled_vehicles/us_m35a2_awning_ammo_carrier",
+    "unit_type": null,
+    "weapons": []
   },
   "wheeled_vehicles/us_m35a2_fuel_carrier": {
-    "unit_class": "wheeled_vehicles/us_m35a2_fuel_carrier",
-    "model": "truck_m978",
-    "unit_type": null,
-    "on_radar_as": "wheeled",
-    "exp_class": "exp_vehicle",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_vehicle",
     "hud_names": [
       "M35A2"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "truck_m978",
+    "on_radar_as": "wheeled",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "wheeled_vehicles/us_m35a2_fuel_carrier",
+    "unit_type": null,
+    "weapons": []
   },
   "wheeled_vehicles/us_m939_awning_ammo_carrier": {
-    "unit_class": "wheeled_vehicles/us_m939_awning_ammo_carrier",
-    "model": "us_m939_awning",
-    "unit_type": null,
-    "on_radar_as": "wheeled",
-    "exp_class": "exp_vehicle",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_vehicle",
     "hud_names": [
       "M939"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "us_m939_awning",
+    "on_radar_as": "wheeled",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "wheeled_vehicles/us_m939_awning_ammo_carrier",
+    "unit_type": null,
+    "weapons": []
   },
   "wheeled_vehicles/us_m978_fuel_carrier": {
-    "unit_class": "wheeled_vehicles/us_m978_fuel_carrier",
-    "model": "truck_m978",
-    "unit_type": null,
-    "on_radar_as": "wheeled",
-    "exp_class": "exp_vehicle",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_vehicle",
     "hud_names": [
       "M978"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "truck_m978",
+    "on_radar_as": "wheeled",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "wheeled_vehicles/us_m978_fuel_carrier",
+    "unit_type": null,
+    "weapons": []
   },
   "wheeled_vehicles/ussr_kamaz_4310_awning_ammo_carrier": {
-    "unit_class": "wheeled_vehicles/ussr_kamaz_4310_awning_ammo_carrier",
-    "model": "ussr_kamaz_4310_awning",
-    "unit_type": null,
-    "on_radar_as": "wheeled",
-    "exp_class": "exp_vehicle",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_vehicle",
     "hud_names": [
       "KAMAZ-4310"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "ussr_kamaz_4310_awning",
+    "on_radar_as": "wheeled",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "wheeled_vehicles/ussr_kamaz_4310_awning_ammo_carrier",
+    "unit_type": null,
+    "weapons": []
   },
   "wheeled_vehicles/ussr_kamaz_4310_fuel_carrier": {
-    "unit_class": "wheeled_vehicles/ussr_kamaz_4310_fuel_carrier",
-    "model": "ussr_kamaz_4310_fuel_carrier",
-    "unit_type": null,
-    "on_radar_as": "wheeled",
-    "exp_class": "exp_vehicle",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_vehicle",
     "hud_names": [
       "KAMAZ-4310"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "ussr_kamaz_4310_fuel_carrier",
+    "on_radar_as": "wheeled",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "wheeled_vehicles/ussr_kamaz_4310_fuel_carrier",
+    "unit_type": null,
+    "weapons": []
   },
   "wheeled_vehicles/ussr_zil_131_awning_ammo_carrier": {
-    "unit_class": "wheeled_vehicles/ussr_zil_131_awning_ammo_carrier",
-    "model": "zis5_tent_a",
-    "unit_type": null,
-    "on_radar_as": "wheeled",
-    "exp_class": "exp_vehicle",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_vehicle",
     "hud_names": [
       "ZiL-131"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "zis5_tent_a",
+    "on_radar_as": "wheeled",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "wheeled_vehicles/ussr_zil_131_awning_ammo_carrier",
+    "unit_type": null,
+    "weapons": []
   },
   "wheeled_vehicles/ussr_zil_131_fuel_carrier": {
-    "unit_class": "wheeled_vehicles/ussr_zil_131_fuel_carrier",
-    "model": "zis6_fuel_a",
-    "unit_type": null,
-    "on_radar_as": "wheeled",
-    "exp_class": "exp_vehicle",
-    "maximum_speed_kph": 75.0,
-    "target_channels": null,
-    "sensors": {},
-    "weapons": [],
-    "engagement_range": null,
-    "ai_gun_range": null,
     "ai_attack_max_radius": null,
+    "ai_engagement_range": null,
+    "ai_gun_range": null,
     "ai_shell_max_radius": null,
     "ai_target_priority_max_radius": null,
-    "ai_engagement_range": null,
+    "engagement_range": null,
+    "exp_class": "exp_vehicle",
     "hud_names": [
       "ZiL-131"
-    ]
+    ],
+    "maximum_speed_kph": 75,
+    "model": "zis6_fuel_a",
+    "on_radar_as": "wheeled",
+    "sensors": {},
+    "target_channels": null,
+    "unit_class": "wheeled_vehicles/ussr_zil_131_fuel_carrier",
+    "unit_type": null,
+    "weapons": []
   }
 }
