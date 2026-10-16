@@ -9,8 +9,10 @@ async fn datamine_bootstrap(window:WebviewWindow,updater:tauri::State<'_,Mutex<d
     require_main(&window)?;Ok(updater.lock().await.snapshot())
 }
 #[tauri::command]
-async fn datamine_check(window:WebviewWindow,updater:tauri::State<'_,Mutex<datamine_updater::Updater>>)->Result<datamine_updater::UpdateResult,String>{
-    require_main(&window)?;updater.lock().await.check().await
+async fn datamine_check(window:WebviewWindow,updater:tauri::State<'_,Mutex<datamine_updater::Updater>>,smoke:tauri::State<'_,SmokeMode>)->Result<datamine_updater::UpdateResult,String>{
+    require_main(&window)?;
+    if smoke.0 { return Err("Automatic downloads are disabled during the isolated native test".into()); }
+    updater.lock().await.check().await
 }
 fn require_main(window: &WebviewWindow) -> Result<(), String> {
     if window.label() != "main" { return Err("This action is available in the main window only".into()); }

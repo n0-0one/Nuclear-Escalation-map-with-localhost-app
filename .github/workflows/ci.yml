@@ -1,13 +1,31 @@
-name: Validate
-on: [push, pull_request, workflow_dispatch]
+name: Validate and update Windows app
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: Optional full War Thunder datamine commit SHA
+        required: false
+        type: string
+  schedule:
+    - cron: '23 5 * * *'
 permissions:
   contents: read
+concurrency:
+  group: app-validation-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   web:
     runs-on: windows-latest
-    timeout-minutes: 20
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v6
         with:
           node-version: 24
@@ -15,28 +33,131 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - run: python scripts/datamine/test_update.py
-      - run: python scripts/datamine/test_feed.py
-      - run: python scripts/datamine/tools/test_mission_extraction.py
+      - name: Test data extraction and publication boundaries
+        run: |
+          python scripts/datamine/test_update.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python scripts/datamine/test_feed.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python scripts/datamine/tools/test_mission_extraction.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          node --test scripts/datamine/publication.test.mjs
+      - name: Check for new War Thunder mission data
+        if: github.event_name != 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DATAMINE_COMMIT: ${{ inputs.commit }}
+          PYTHONUTF8: '1'
+        run: |
+          $arguments = @('scripts/datamine/update.py')
+          if ($env:DATAMINE_COMMIT) { $arguments += @('--commit', $env:DATAMINE_COMMIT) }
+          python @arguments
+      - name: Record the generation report
+        if: always()
+        run: |
+          if (Test-Path '.local/datamine-update-report.md') {
+            Get-Content '.local/datamine-update-report.md' | Add-Content $env:GITHUB_STEP_SUMMARY
+          }
       - run: npm ci
       - run: npm test
       - run: npm run build
       - run: npm run test:browser
+      - run: python scripts/datamine/build_feed.py
+      - uses: actions/upload-artifact@v6
+        with:
+          name: validated-windows-data
+          path: .local/windows-feed/
+          include-hidden-files: true
+          retention-days: 14
       - uses: actions/upload-artifact@v6
         if: failure()
         with:
           name: browser-failures
           path: test-results
+
   rust:
+    needs: web
     runs-on: windows-latest
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
       - uses: dtolnay/rust-toolchain@stable
       - uses: Swatinem/rust-cache@v2
+      - uses: actions/download-artifact@v6
+        with:
+          name: validated-windows-data
+          path: .local/windows-feed
       - run: cargo test --locked -p war-thunder-telemetry -p ntl-bridge -p datamine-updater
+      - name: Validate the candidate with the native updater
+        run: cargo run --locked -p datamine-updater --example verify_feed -- .local/windows-feed
       - run: cargo build --locked --release -p ntl-bridge
       - uses: actions/setup-node@v6
         with:
           node-version: 24
       - run: node tests/integration/bridge-security.mjs
+
+  windows:
+    needs: web
+    runs-on: windows-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - run: ./scripts/ensure-webview2.ps1
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - uses: actions/download-artifact@v6
+        with:
+          name: validated-windows-data
+          path: .local/windows-feed
+      - name: Install the candidate into the isolated native test cache
+        run: cargo run --locked -p datamine-updater --example verify_feed -- .local/windows-feed .local/native-smoke-data
+      - run: npm ci
+      - run: npm run desktop:build
+      - run: ./tests/integration/native-smoke.ps1
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: native-smoke-diagnostics
+          path: docs/verification/native-*
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v6
+        with:
+          name: Nuclear-Thunder-Live-Windows
+          path: |
+            target/release/ntl-desktop.exe
+            target/release/bundle/nsis/*.exe
+            LICENSES/
+            README.md
+
+  datamine:
+    needs: [web, rust, windows]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - uses: actions/download-artifact@v6
+        with:
+          name: validated-windows-data
+          path: .local/windows-feed
+      - name: Verify the tested publication artifact
+        run: node scripts/datamine/publish_feed.mjs --verify-only
+      - name: Update the automation branch and Windows feed
+        if: github.repository == 'n0-0one/Nuclear-Escalation-map-with-localhost-app' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/datamine/publish_feed.mjs

@@ -10,7 +10,7 @@ This is a field-test build. The local API does not reliably identify the current
 
 Download the Windows package or installer from [the Windows app repository's releases](https://github.com/n0-0one/Nuclear-Escalation-map-with-localhost-app/releases). Extract the complete ZIP, then run `Nuclear-Thunder-Live.exe`, or run `Nuclear-Thunder-Live-Setup.exe` to install it. Microsoft Edge WebView2 Runtime is required and is usually already present on Windows 11. The installer can download WebView2 if it is missing. Releases are not signed with a publisher certificate.
 
-The map and its assets are bundled with the application. From 0.2.1, validated mission-data updates download automatically at startup and every four hours, then load on the next launch. Settings shows the loaded revision and a manual update check. Offline startup uses verified cached or bundled data. **Native War Thunder** connects directly to the game running on this computer. The map also works when the game is closed. The desktop application does not need the optional bridge.
+The map and its assets are bundled with the application. Version 0.2.2 uses this Windows repository's own validated mission-data feed. Updates download automatically at startup and every four hours, then load on the next launch. Settings shows the loaded revision and a manual update check. Offline startup uses verified cached or bundled data. **Native War Thunder** connects directly to the game running on this computer. The map also works when the game is closed. The desktop application does not need the optional bridge.
 
 Local build outputs are `target/release/ntl-desktop.exe`, `target/release/bundle/nsis/Nuclear Thunder Live_<version>_x64-setup.exe` and `target/release/ntl-bridge.exe`. Packaged releases are written to `release/<version>/`, including Windows, Web and Source ZIP files and `SHA256SUMS.txt`.
 
@@ -102,13 +102,15 @@ For development, run `npm run dev` in one terminal and `npm run desktop:dev` in 
 
 ## Hosting, releases and data updates
 
+The Windows repository has four checks: `web`, `rust`, `windows` and `datamine`. Its daily workflow refreshes [`automation/datamine-update`](https://github.com/n0-0one/Nuclear-Escalation-map-with-localhost-app/tree/automation/datamine-update) and publishes tested data automatically. Install 0.2.2 once to use this app-specific feed; see [automatic updates](docs/datamine.md).
+
 The website repository is [n0-0one/Nuclear-Escalation-map-with-localhost](https://github.com/n0-0one/Nuclear-Escalation-map-with-localhost). The Windows app repository is [n0-0one/Nuclear-Escalation-map-with-localhost-app](https://github.com/n0-0one/Nuclear-Escalation-map-with-localhost-app). The Pages address is [Nuclear Thunder Live](https://n0-0one.github.io/Nuclear-Escalation-map-with-localhost/). Check the repository's latest workflow run for the deployed revision.
 
-`.github/workflows/pages.yml` builds and validates the website, then deploys `dist/`. Configure **Settings → Pages → Source → GitHub Actions**. A push to `main` or manual workflow run starts deployment. Relative asset paths support both repository subpaths and custom domains.
+The website repository owns its Pages deployment workflow. This Windows repository does not run or skip Pages jobs. Relative web asset paths still support repository subpaths and custom domains.
 
-`.github/workflows/windows.yml` builds the Windows application and installer on `windows-latest`. Its artifacts contain the application, installer and third-party notices. Only a successful release workflow establishes that downloadable binaries were published; source commits alone do not.
+`.github/workflows/ci.yml` builds and tests the Windows application and installer on `windows-latest`, validates the exact datamine candidate, and publishes data after all four checks pass. The Windows artifact contains the application, installer and third-party notices. Application installers are published as normal versioned GitHub releases; successful source checks alone do not establish release availability.
 
-Map updates follow the upstream project's generated data and preserve source attribution. See [the datamine update process](docs/datamine.md) for the automation branch, review rules and pinned source revisions. The validated JSON feed updates installed Windows copies without a new EXE. Source and website updates remain separate draft PRs for review.
+Map updates follow the upstream project's generated data and preserve source attribution. See [the datamine update process](docs/datamine.md) for the automation branch, validation rules and pinned source revisions. The validated JSON feed updates installed Windows copies without a new EXE. The app's generated source snapshot updates automatically on its data branch. The separate website repository retains its own draft PR review process.
 
 ## Verify and package a build
 

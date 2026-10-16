@@ -574,7 +574,7 @@ dependencies = [
 
 [[package]]
 name = "datamine-updater"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "reqwest 0.12.28",
  "serde",
@@ -1997,7 +1997,7 @@ checksum = "650eef8c711430f1a879fdd01d4745a7deea475becfb90269c06775983bbf086"
 
 [[package]]
 name = "ntl-bridge"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "axum",
  "rand 0.9.5",
@@ -2008,7 +2008,7 @@ dependencies = [
 
 [[package]]
 name = "ntl-desktop"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "datamine-updater",
  "serde_json",
@@ -4126,7 +4126,7 @@ dependencies = [
 
 [[package]]
 name = "war-thunder-telemetry"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "reqwest 0.12.28",
  "serde",

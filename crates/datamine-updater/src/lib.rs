@@ -9,7 +9,7 @@ use std::{
     time::Duration,
 };
 
-pub const FEED: &str = "https://raw.githubusercontent.com/n0-0one/Nuclear-Escalation-map-with-localhost/codex/windows-data-v1";
+pub const FEED: &str = "https://raw.githubusercontent.com/n0-0one/Nuclear-Escalation-map-with-localhost-app/codex/windows-data-v1";
 pub const MAX_PACK: usize = 32 * 1024 * 1024;
 pub const FILES: [&str; 12] = [
     "map_data.json",
