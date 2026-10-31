@@ -608,15 +608,11 @@
         "band": 5,
         "designation_range": 180000,
         "kind": "detection",
-        "maximum": null,
-        "nominal": null,
-        "range_status": "unresolved_internal",
-        "raw_maximum": 2,
-        "raw_nominal": 2,
+        "maximum": 200000,
+        "nominal": 150000,
+        "range_status": "confirmed",
         "scope_ranges": [
-          40000,
-          80000,
-          120000
+          200000
         ],
         "sensor": "us_tps_59"
       }
@@ -869,16 +865,16 @@
     "model": "mim_104_patriot_radar_an_mpq53",
     "on_radar_as": "radar",
     "sensors": {
-      "tracking": {
+      "detection": {
         "ai": false,
         "band": 6,
-        "designation_range": null,
-        "kind": "tracking",
+        "designation_range": 180000,
+        "kind": "detection",
         "maximum": 180000,
         "nominal": 100000,
         "range_status": "confirmed",
         "scope_ranges": [],
-        "sensor": "us_an_mpq_53"
+        "sensor": "us_an_mpq_53_search_and_track"
       }
     },
     "target_channels": null,
@@ -965,7 +961,7 @@
     "hud_names": [
       "USS Forrestal"
     ],
-    "maximum_speed_kph": 80,
+    "maximum_speed_kph": 55,
     "model": "aircraftcarrier_forrestal",
     "on_radar_as": null,
     "sensors": {},
@@ -1623,15 +1619,11 @@
         "band": 5,
         "designation_range": 180000,
         "kind": "detection",
-        "maximum": null,
-        "nominal": null,
-        "range_status": "unresolved_internal",
-        "raw_maximum": 2,
-        "raw_nominal": 2,
+        "maximum": 200000,
+        "nominal": 150000,
+        "range_status": "confirmed",
         "scope_ranges": [
-          40000,
-          80000,
-          120000
+          200000
         ],
         "sensor": "su_55zh6"
       }
@@ -1720,16 +1712,16 @@
     "model": "ussr_buk_m1",
     "on_radar_as": "sam",
     "sensors": {
-      "tracking": {
+      "detection": {
         "ai": false,
         "band": 8,
-        "designation_range": null,
-        "kind": "tracking",
+        "designation_range": 60000,
+        "kind": "detection",
         "maximum": 60000,
-        "nominal": 100000,
+        "nominal": 60000,
         "range_status": "confirmed",
         "scope_ranges": [],
-        "sensor": "su_9s35"
+        "sensor": "su_9s35_search_and_track"
       }
     },
     "target_channels": null,
@@ -1764,16 +1756,16 @@
     "model": "ussr_buk_m1",
     "on_radar_as": "sam",
     "sensors": {
-      "tracking": {
+      "detection": {
         "ai": false,
         "band": 8,
-        "designation_range": null,
-        "kind": "tracking",
+        "designation_range": 60000,
+        "kind": "detection",
         "maximum": 60000,
-        "nominal": 100000,
+        "nominal": 60000,
         "range_status": "confirmed",
         "scope_ranges": [],
-        "sensor": "su_9s35m1"
+        "sensor": "su_9s35m1_search_and_track"
       }
     },
     "target_channels": null,
@@ -1840,16 +1832,16 @@
     "model": "s300ps_command_post_5n63s",
     "on_radar_as": "radar",
     "sensors": {
-      "tracking": {
+      "detection": {
         "ai": false,
         "band": 8,
-        "designation_range": null,
-        "kind": "tracking",
+        "designation_range": 180000,
+        "kind": "detection",
         "maximum": 180000,
         "nominal": 100000,
         "range_status": "confirmed",
         "scope_ranges": [],
-        "sensor": "su_5n63s"
+        "sensor": "su_5n63s_search_and_track"
       }
     },
     "target_channels": null,
@@ -2075,7 +2067,7 @@
     "hud_names": [
       "Admiral Kuznetsov"
     ],
-    "maximum_speed_kph": 80,
+    "maximum_speed_kph": 55,
     "model": "aircraftcarrier_admiral_kuznetsov",
     "on_radar_as": null,
     "sensors": {
@@ -2143,7 +2135,7 @@
     "hud_names": [
       "Baku"
     ],
-    "maximum_speed_kph": 80,
+    "maximum_speed_kph": 55,
     "model": "aircraftcarrier_baku",
     "on_radar_as": null,
     "sensors": {},
