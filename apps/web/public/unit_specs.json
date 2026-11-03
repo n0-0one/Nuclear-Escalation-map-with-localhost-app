@@ -43,76 +43,6 @@
       }
     ]
   },
-  "germ_destroyer_lutjens_class_lutjens": {
-    "ai_attack_max_radius": 30000,
-    "ai_engagement_range": 30000,
-    "ai_gun_range": 10000,
-    "ai_shell_max_radius": 40000,
-    "ai_target_priority_max_radius": 60000,
-    "engagement_range": 80000,
-    "exp_class": "exp_destroyer",
-    "hud_names": [
-      "Lütjens"
-    ],
-    "maximum_speed_kph": 80,
-    "model": "destroyer_lutjens_class_lutjens",
-    "on_radar_as": "missile_destroyer",
-    "sensors": {
-      "detection": {
-        "ai": false,
-        "band": 0,
-        "designation_range": 150000,
-        "kind": "detection",
-        "maximum": 150000,
-        "nominal": 120000,
-        "range_status": "confirmed",
-        "scope_ranges": [
-          10000,
-          20000,
-          50000
-        ],
-        "sensor": "us_an_sps_12"
-      },
-      "tracking": {
-        "ai": false,
-        "band": 2,
-        "designation_range": null,
-        "kind": "tracking",
-        "maximum": 30000,
-        "nominal": 25000,
-        "range_status": "confirmed",
-        "scope_ranges": [],
-        "sensor": "us_an_spg_51"
-      }
-    },
-    "target_channels": 2,
-    "unit_class": "germ_destroyer_lutjens_class_lutjens",
-    "unit_type": "typeDestroyer",
-    "weapons": [
-      {
-        "ai_maximum": 30000,
-        "ai_minimum": 3500,
-        "ammo": 41,
-        "effective_maximum": 80000,
-        "guidance": "radar",
-        "minimum": 3000,
-        "name": "rocket_mk13_naval_rocket_launcher",
-        "physical_maximum": 80000,
-        "reload_seconds": 10
-      },
-      {
-        "ai_maximum": 10000,
-        "ai_minimum": 0.05,
-        "ammo": null,
-        "effective_maximum": 10000,
-        "guidance": null,
-        "minimum": 0,
-        "name": "127mm_54_mk18_turret_mk42_single_naval_user_cannon",
-        "physical_maximum": 10000,
-        "reload_seconds": null
-      }
-    ]
-  },
   "germ_flakpz_1a2_gepard": {
     "ai_attack_max_radius": 10000,
     "ai_engagement_range": 5000,
@@ -982,6 +912,74 @@
       }
     ]
   },
+  "us_aircraftcarrier_nimitz_ai": {
+    "ai_attack_max_radius": 12000,
+    "ai_engagement_range": 8500,
+    "ai_gun_range": 3000,
+    "ai_shell_max_radius": 20000,
+    "ai_target_priority_max_radius": 30000,
+    "engagement_range": 8000,
+    "exp_class": "exp_cv_ship",
+    "hud_names": [
+      "USS Nimitz"
+    ],
+    "maximum_speed_kph": 55,
+    "model": "aircraftcarrier_nimitz",
+    "on_radar_as": null,
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 5,
+        "designation_range": 150000,
+        "kind": "detection",
+        "maximum": 150000,
+        "nominal": 120000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          60000
+        ],
+        "sensor": "us_an_sps_48"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "us_aircraftcarrier_nimitz_ai",
+    "unit_type": "typeShip",
+    "weapons": [
+      {
+        "ai_maximum": 8500,
+        "ai_minimum": 800,
+        "ammo": 84,
+        "effective_maximum": 8000,
+        "guidance": "saclos",
+        "minimum": 30,
+        "name": "152mm_9m311_naval_rocket_launcher",
+        "physical_maximum": 8000,
+        "reload_seconds": 1
+      },
+      {
+        "ai_maximum": 3000,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 6000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "20mm_m61_vulcan_naval_user_cannon",
+        "physical_maximum": 6000,
+        "reload_seconds": 60
+      },
+      {
+        "ai_maximum": 2000,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 6000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "25mm_87_mark_38_naval_user_cannon",
+        "physical_maximum": 6000,
+        "reload_seconds": 10
+      }
+    ]
+  },
   "us_ashville_class_douglas": {
     "ai_attack_max_radius": 20000,
     "ai_engagement_range": 20000,
@@ -1194,6 +1192,87 @@
         "name": "127mm_54_mk42_naval_user_cannon",
         "physical_maximum": 10000,
         "reload_seconds": null
+      }
+    ]
+  },
+  "us_frigate_oliver_hazard_perry": {
+    "ai_attack_max_radius": 56300,
+    "ai_engagement_range": 56300,
+    "ai_gun_range": 4500,
+    "ai_shell_max_radius": 56300,
+    "ai_target_priority_max_radius": 60000,
+    "engagement_range": 80000,
+    "exp_class": "exp_torpedo_gun_boat",
+    "hud_names": [
+      "USS Oliver Hazard Perry"
+    ],
+    "maximum_speed_kph": 80,
+    "model": "frigate_oliver_hazard_perry",
+    "on_radar_as": "missile_frigate",
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 0,
+        "designation_range": 150000,
+        "kind": "detection",
+        "maximum": 150000,
+        "nominal": 120000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          10000,
+          20000,
+          50000
+        ],
+        "sensor": "us_an_sps_49"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 8,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 60000,
+        "nominal": 100000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "us_an_spg_51_ec"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "us_frigate_oliver_hazard_perry",
+    "unit_type": "typeTorpedoGunBoat",
+    "weapons": [
+      {
+        "ai_maximum": 56300,
+        "ai_minimum": 3500,
+        "ammo": 41,
+        "effective_maximum": 80000,
+        "guidance": "radar",
+        "minimum": 3000,
+        "name": "rocket_mk13_naval_rocket_launcher",
+        "physical_maximum": 80000,
+        "reload_seconds": 10
+      },
+      {
+        "ai_maximum": 4500,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 20000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "76mm_62_oto_melara_compact_naval_user_cannon",
+        "physical_maximum": 20000,
+        "reload_seconds": 0.705
+      },
+      {
+        "ai_maximum": 3000,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 6000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "20mm_m61_vulcan_naval_user_cannon",
+        "physical_maximum": 6000,
+        "reload_seconds": 60
       }
     ]
   },

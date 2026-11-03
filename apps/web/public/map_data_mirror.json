@@ -60519,34 +60519,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t1_aircraftcarrier_01",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "ussr_aircraftcarrier_admiral_kuznetsov_ai",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            81488.4,
-            0,
-            -32745
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       81488.4,
@@ -60796,34 +60769,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t1_aircraftcarrier_02",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "ussr_aircraftcarrier_admiral_kuznetsov_ai",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            86289.8,
-            0,
-            -27906.9
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       86289.8,
@@ -61073,34 +61019,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t1_destroyer_01",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "ussr_destroyer_rckt_pr956",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            85164.8,
-            0,
-            -43507.2
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       85164.8,
@@ -61350,34 +61269,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t1_destroyer_02",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "ussr_destroyer_rckt_pr956",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            101118,
-            0,
-            -59705.9
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       101118,
@@ -61627,34 +61519,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t1_frigate_01",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "ussr_mpk_pr_1124_ec",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            71162.5,
-            0,
-            -46317.3
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       71162.5,
@@ -61904,34 +61769,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t1_frigate_02",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "ussr_mpk_pr_1124_ec",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            82208.9,
-            0,
-            -57513
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       82208.9,
@@ -62181,34 +62019,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t1_frigate_03",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "ussr_mpk_pr_1124_ec",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            92921.9,
-            0,
-            -68361.6
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       92921.9,
@@ -62415,7 +62226,7 @@
             0,
             0
           ],
-          "name": "us_aircraftcarrier_forrestal_ai",
+          "name": "us_aircraftcarrier_nimitz_ai",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -62443,7 +62254,7 @@
             0,
             0
           ],
-          "name": "us_aircraftcarrier_forrestal_ai",
+          "name": "us_aircraftcarrier_nimitz_ai",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -62458,34 +62269,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t2_aircraftcarrier_01",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "us_aircraftcarrier_forrestal_ai",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            32928,
-            0,
-            -81474.5
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       32928,
@@ -62692,7 +62476,7 @@
             0,
             0
           ],
-          "name": "us_aircraftcarrier_forrestal_ai",
+          "name": "us_aircraftcarrier_nimitz_ai",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -62720,7 +62504,7 @@
             0,
             0
           ],
-          "name": "us_aircraftcarrier_forrestal_ai",
+          "name": "us_aircraftcarrier_nimitz_ai",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -62735,34 +62519,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t2_aircraftcarrier_02",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "us_aircraftcarrier_forrestal_ai",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            28451.4,
-            0,
-            -86068.9
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       28451.4,
@@ -63012,34 +62769,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t2_destroyer_01",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "us_cruiser_rckt_california",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            43434.1,
-            0,
-            -84697.2
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       43434.1,
@@ -63289,34 +63019,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t2_destroyer_02",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "us_cruiser_rckt_california",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            59330.6,
-            0,
-            -100782
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       59330.6,
@@ -63523,7 +63226,7 @@
             0,
             0
           ],
-          "name": "germ_destroyer_lutjens_class_lutjens",
+          "name": "us_frigate_oliver_hazard_perry",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -63551,7 +63254,7 @@
             0,
             0
           ],
-          "name": "germ_destroyer_lutjens_class_lutjens",
+          "name": "us_frigate_oliver_hazard_perry",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -63566,34 +63269,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t2_frigate_01",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "germ_destroyer_lutjens_class_lutjens",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            46866.4,
-            0,
-            -71063.9
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       46866.4,
@@ -63800,7 +63476,7 @@
             0,
             0
           ],
-          "name": "germ_destroyer_lutjens_class_lutjens",
+          "name": "us_frigate_oliver_hazard_perry",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -63828,7 +63504,7 @@
             0,
             0
           ],
-          "name": "germ_destroyer_lutjens_class_lutjens",
+          "name": "us_frigate_oliver_hazard_perry",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -63843,34 +63519,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t2_frigate_02",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "germ_destroyer_lutjens_class_lutjens",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            57454.1,
-            0,
-            -81731.1
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       57454.1,
@@ -64077,7 +63726,7 @@
             0,
             0
           ],
-          "name": "germ_destroyer_lutjens_class_lutjens",
+          "name": "us_frigate_oliver_hazard_perry",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -64105,7 +63754,7 @@
             0,
             0
           ],
-          "name": "germ_destroyer_lutjens_class_lutjens",
+          "name": "us_frigate_oliver_hazard_perry",
           "number": 1,
           "preset": "mission unit",
           "role": "ship",
@@ -64120,34 +63769,7 @@
           ]
         }
       ],
-      "rank-40-50": [
-        {
-          "count": 1,
-          "id": "t2_frigate_03",
-          "lifecycle": {
-            "kind": "none",
-            "source": "mission"
-          },
-          "local_pos": [
-            0,
-            0,
-            0
-          ],
-          "name": "germ_destroyer_lutjens_class_lutjens",
-          "number": 1,
-          "preset": "mission unit",
-          "role": "ship",
-          "slot_type": "origin",
-          "template": "",
-          "threat_range": null,
-          "unplaced": false,
-          "world_pos": [
-            68523,
-            0,
-            -93099.3
-          ]
-        }
-      ]
+      "rank-40-50": []
     },
     "world_pos": [
       68523,

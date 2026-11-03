@@ -1,6 +1,5 @@
 {
   "cn_hq_11": "HQ11",
-  "germ_destroyer_lutjens_class_lutjens": "Lütjens-class, Lütjens (D185), 1969",
   "germ_flakpz_1a2_gepard": "Flakpanzer I Gepard 1A2",
   "germ_flarakpz_1": "FlaRakPz 1 Roland 2",
   "germ_pzh_2000": "PzH 2000",
@@ -23,9 +22,11 @@
   "us_ai_sam_radar_cwar": "\"CWAR\" acquisition radar",
   "us_ai_tbm_m752_lance": "MGM-52 \"Lance\" tactical ballistic missile",
   "us_aircraftcarrier_forrestal_ai": "USS Forrestal, CVA-59",
+  "us_aircraftcarrier_nimitz_ai": "USS Nimitz, CVN-68",
   "us_ashville_class_douglas": "Asheville-class, USS Douglas (PGM-100)",
   "us_cruiser_rckt_california": "USS California",
   "us_destroyer_cf_adams_class_cf_adams_ec": "Charles F. Adams-class, USS Charles F. Adams (DDG-2), 1961",
+  "us_frigate_oliver_hazard_perry": "USS Oliver Hazard Perry, FFG-7",
   "us_m109a1": "M109A1",
   "us_m163_vulcan": "Gun, Air Defence Artillery, Self-Propelled: 20 mm, M163",
   "us_m1a1_abrams": "Tank, Combat, Full Tracked, 120 mm Gun M1A1",

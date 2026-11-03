@@ -1,5 +1,5 @@
 {
-  "accepted_commit": "45e481081dc29e89ae11485cc1bb252247c44c5d",
+  "accepted_commit": "28c347e8d7337dbbf51d629e44f3d45046374246",
   "missing_object_groups": [],
   "ref": "master",
   "repository": "gszabi99/War-Thunder-Datamine",
@@ -46,7 +46,7 @@
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/templates/units_sets/nuclear_escalation_ship_sets/nuclear_escalation_ships.blkx",
-      "sha": "54b652d55bbd30036b3a6f0fd8871f1ee6d85250",
+      "sha": "86ffe7b6dfbb1e28c588eb6c6815754b1a23093c",
       "used_for_generation": true
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/templates/units_sets/nuclear_escalation_ship_sets/nuclear_escalation_ships_1980.blkx",
-      "sha": "20341d5e436ee82a6832b4c2b421310a1c3e8789",
+      "sha": "894b6e9c87106ff57760e40e6cbc9f8b9c885fab",
       "used_for_generation": true
     },
     {
@@ -131,7 +131,7 @@
     },
     {
       "path": "lang.vromfs.bin_u/lang/units.csv",
-      "sha": "4f797a87374c6f1fd6adef6e2b006f0fff046ae6",
+      "sha": "aa7007424cbbffb21dc51619f6b193672821ee8a",
       "used_for_generation": true
     },
     {
