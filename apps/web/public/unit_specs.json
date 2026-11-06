@@ -552,38 +552,6 @@
     "unit_type": "typeLightTank",
     "weapons": []
   },
-  "us_ai_mlrs_m270": {
-    "ai_attack_max_radius": 45000,
-    "ai_engagement_range": 45000,
-    "ai_gun_range": null,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": null,
-    "engagement_range": 45500,
-    "exp_class": "exp_tank",
-    "hud_names": [
-      "M270 MLRS"
-    ],
-    "maximum_speed_kph": 75,
-    "model": "us_m_270_mlrs",
-    "on_radar_as": "mlrs",
-    "sensors": {},
-    "target_channels": null,
-    "unit_class": "us_ai_mlrs_m270",
-    "unit_type": "typeTankDestroyer",
-    "weapons": [
-      {
-        "ai_maximum": 45000,
-        "ai_minimum": null,
-        "ammo": 12,
-        "effective_maximum": 45500,
-        "guidance": null,
-        "minimum": 15000,
-        "name": "227mm_m270_rocket_launcher",
-        "physical_maximum": 45500,
-        "reload_seconds": 8
-      }
-    ]
-  },
   "us_ai_sam_launcher_m192": {
     "ai_attack_max_radius": 40000,
     "ai_engagement_range": 40000,
@@ -847,38 +815,6 @@
     "unit_class": "us_ai_sam_radar_cwar",
     "unit_type": "typeLightTank",
     "weapons": []
-  },
-  "us_ai_tbm_m752_lance": {
-    "ai_attack_max_radius": 70000,
-    "ai_engagement_range": 70000,
-    "ai_gun_range": null,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": null,
-    "engagement_range": 80000,
-    "exp_class": "exp_tank",
-    "hud_names": [
-      "\"Lance\" TBM"
-    ],
-    "maximum_speed_kph": 75,
-    "model": "us_m_752_launcher",
-    "on_radar_as": "tbm_launcher",
-    "sensors": {},
-    "target_channels": null,
-    "unit_class": "us_ai_tbm_m752_lance",
-    "unit_type": "typeLightTank",
-    "weapons": [
-      {
-        "ai_maximum": 70000,
-        "ai_minimum": 15000,
-        "ammo": 1,
-        "effective_maximum": 80000,
-        "guidance": "sns",
-        "minimum": 15000,
-        "name": "557mm_mgm_52_rocket_launcher",
-        "physical_maximum": 80000,
-        "reload_seconds": 15
-      }
-    ]
   },
   "us_aircraftcarrier_forrestal_ai": {
     "ai_attack_max_radius": 10000,
@@ -1712,38 +1648,6 @@
     "unit_type": "typeLightTank",
     "weapons": []
   },
-  "ussr_ai_mlrs_9a52_2_smerch": {
-    "ai_attack_max_radius": 45000,
-    "ai_engagement_range": 45000,
-    "ai_gun_range": null,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": null,
-    "engagement_range": 45500,
-    "exp_class": "exp_tank",
-    "hud_names": [
-      "\"Smerch\" MLRS"
-    ],
-    "maximum_speed_kph": 75,
-    "model": "rszo_smerch",
-    "on_radar_as": "mlrs",
-    "sensors": {},
-    "target_channels": null,
-    "unit_class": "ussr_ai_mlrs_9a52_2_smerch",
-    "unit_type": "typeLightTank",
-    "weapons": [
-      {
-        "ai_maximum": 45000,
-        "ai_minimum": null,
-        "ammo": 12,
-        "effective_maximum": 45500,
-        "guidance": null,
-        "minimum": 15000,
-        "name": "300mm_9k58_rocket_launcher",
-        "physical_maximum": 45500,
-        "reload_seconds": 8
-      }
-    ]
-  },
   "ussr_ai_sam_launcher_5p85se": {
     "ai_attack_max_radius": 75000,
     "ai_engagement_range": 70000,
@@ -2102,38 +2006,6 @@
     "unit_class": "ussr_ai_sam_radar_snr_75",
     "unit_type": "typeLightTank",
     "weapons": []
-  },
-  "ussr_ai_tbm_9k79_tochka": {
-    "ai_attack_max_radius": 70000,
-    "ai_engagement_range": 70000,
-    "ai_gun_range": null,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": null,
-    "engagement_range": 70000,
-    "exp_class": "exp_tank",
-    "hud_names": [
-      "\"Tochka\" TBM"
-    ],
-    "maximum_speed_kph": 75,
-    "model": "9k79_tochka",
-    "on_radar_as": "tbm_launcher",
-    "sensors": {},
-    "target_channels": null,
-    "unit_class": "ussr_ai_tbm_9k79_tochka",
-    "unit_type": "typeLightTank",
-    "weapons": [
-      {
-        "ai_maximum": 70000,
-        "ai_minimum": 15000,
-        "ammo": 1,
-        "effective_maximum": 70000,
-        "guidance": "sns",
-        "minimum": 15000,
-        "name": "650mm_9k79_rocket_launcher",
-        "physical_maximum": 70000,
-        "reload_seconds": 15
-      }
-    ]
   },
   "ussr_aircraftcarrier_admiral_kuznetsov_ai": {
     "ai_attack_max_radius": 12000,
