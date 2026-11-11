@@ -573,7 +573,7 @@
   "likely_armored_links": [
     {
       "assembly": "t1_base_01",
-      "distance": 16579.7,
+      "distance": 15619.4,
       "from": [
         7014.43,
         115.102,
@@ -585,9 +585,28 @@
       "target_team": 2,
       "team": 1,
       "to": [
-        -8130.26,
-        39.7949,
-        48107.7
+        -7230.21,
+        45.4688,
+        48447.5
+      ]
+    },
+    {
+      "assembly": "t1_base_01",
+      "distance": 19954.3,
+      "from": [
+        7014.43,
+        115.102,
+        54854.9
+      ],
+      "rank_by_distance": 2,
+      "target": "t2_base_01",
+      "target_category": "assembly_area",
+      "target_team": 2,
+      "team": 1,
+      "to": [
+        -11092.6,
+        56.941,
+        46469.9
       ]
     },
     {
@@ -598,7 +617,7 @@
         115.102,
         54854.9
       ],
-      "rank_by_distance": 2,
+      "rank_by_distance": 3,
       "target": "t2_strongpoint_02",
       "target_category": "strongpoint",
       "target_team": 2,
@@ -610,27 +629,8 @@
       ]
     },
     {
-      "assembly": "t1_base_01",
-      "distance": 21193.8,
-      "from": [
-        7014.43,
-        115.102,
-        54854.9
-      ],
-      "rank_by_distance": 3,
-      "target": "t2_base_01",
-      "target_category": "assembly_area",
-      "target_team": 2,
-      "team": 1,
-      "to": [
-        -11959.7,
-        71.9248,
-        45412.4
-      ]
-    },
-    {
       "assembly": "t1_base_02",
-      "distance": 17260.2,
+      "distance": 16376.8,
       "from": [
         9119.29,
         68.026,
@@ -642,9 +642,9 @@
       "target_team": 2,
       "team": 1,
       "to": [
-        -8130.26,
-        39.7949,
-        48107.7
+        -7230.21,
+        45.4688,
+        48447.5
       ]
     },
     {
@@ -725,7 +725,7 @@
     },
     {
       "assembly": "t1_base_03",
-      "distance": 14906,
+      "distance": 14308.8,
       "from": [
         4845.54,
         68.2563,
@@ -737,9 +737,9 @@
       "target_team": 2,
       "team": 1,
       "to": [
-        -8130.26,
-        39.7949,
-        48107.7
+        -7230.21,
+        45.4688,
+        48447.5
       ]
     },
     {
@@ -858,11 +858,11 @@
     },
     {
       "assembly": "t2_base_01",
-      "distance": 12131.5,
+      "distance": 11671.3,
       "from": [
-        -11959.7,
-        71.9248,
-        45412.4
+        -11092.6,
+        56.941,
+        46469.9
       ],
       "rank_by_distance": 1,
       "target": "t1_strongpoint_02",
@@ -877,11 +877,11 @@
     },
     {
       "assembly": "t2_base_01",
-      "distance": 14197.9,
+      "distance": 12902.6,
       "from": [
-        -11959.7,
-        71.9248,
-        45412.4
+        -11092.6,
+        56.941,
+        46469.9
       ],
       "rank_by_distance": 2,
       "target": "t1_strongpoint_01",
@@ -896,30 +896,30 @@
     },
     {
       "assembly": "t2_base_01",
-      "distance": 17038.2,
+      "distance": 16926.1,
       "from": [
-        -11959.7,
-        71.9248,
-        45412.4
+        -11092.6,
+        56.941,
+        46469.9
       ],
       "rank_by_distance": 3,
-      "target": "t1_strongpoint_03",
-      "target_category": "strongpoint",
+      "target": "t1_base_03",
+      "target_category": "assembly_area",
       "target_team": 1,
       "team": 2,
       "to": [
-        1075.12,
-        75.6992,
-        34440
+        4845.54,
+        68.2563,
+        40771.7
       ]
     },
     {
       "assembly": "t2_base_02",
-      "distance": 14813.1,
+      "distance": 12755.6,
       "from": [
-        -15077.6,
-        87.4375,
-        40508
+        -13086.5,
+        84.2817,
+        41648
       ],
       "rank_by_distance": 1,
       "target": "t1_strongpoint_02",
@@ -934,11 +934,11 @@
     },
     {
       "assembly": "t2_base_02",
-      "distance": 17254.9,
+      "distance": 15890.5,
       "from": [
-        -15077.6,
-        87.4375,
-        40508
+        -13086.5,
+        84.2817,
+        41648
       ],
       "rank_by_distance": 2,
       "target": "t1_strongpoint_03",
@@ -953,11 +953,11 @@
     },
     {
       "assembly": "t2_base_02",
-      "distance": 19628.4,
+      "distance": 17374.8,
       "from": [
-        -15077.6,
-        87.4375,
-        40508
+        -13086.5,
+        84.2817,
+        41648
       ],
       "rank_by_distance": 3,
       "target": "t1_strongpoint_01",
@@ -1200,11 +1200,11 @@
     },
     {
       "assembly": "t2_base_06",
-      "distance": 15199.9,
+      "distance": 12302.5,
       "from": [
-        -19630,
-        33.759,
-        21758.5
+        -16905.7,
+        35.2838,
+        20719.3
       ],
       "rank_by_distance": 1,
       "target": "t1_strongpoint_07",
@@ -1219,11 +1219,11 @@
     },
     {
       "assembly": "t2_base_06",
-      "distance": 16725.1,
+      "distance": 13849,
       "from": [
-        -19630,
-        33.759,
-        21758.5
+        -16905.7,
+        35.2838,
+        20719.3
       ],
       "rank_by_distance": 2,
       "target": "t1_strongpoint_04",
@@ -1238,11 +1238,11 @@
     },
     {
       "assembly": "t2_base_06",
-      "distance": 20455,
+      "distance": 17539.5,
       "from": [
-        -19630,
-        33.759,
-        21758.5
+        -16905.7,
+        35.2838,
+        20719.3
       ],
       "rank_by_distance": 3,
       "target": "t1_base_04",
@@ -1385,7 +1385,7 @@
     },
     {
       "assembly": "t2_base_06",
-      "distance": 7225.2,
+      "distance": 5260.5,
       "factory": "t2_fuel_storage_large_02",
       "from": [
         -15936.1,
@@ -1396,9 +1396,9 @@
       "resource": "fuel",
       "team": 2,
       "to": [
-        -19630,
-        33.759,
-        21758.5
+        -16905.7,
+        35.2838,
+        20719.3
       ]
     },
     {
@@ -1421,7 +1421,7 @@
     },
     {
       "assembly": "t2_base_02",
-      "distance": 3030,
+      "distance": 3037.2,
       "factory": "t2_fuel_storage_large_01",
       "from": [
         -15485.7,
@@ -1432,14 +1432,14 @@
       "resource": "fuel",
       "team": 2,
       "to": [
-        -15077.6,
-        87.4375,
-        40508
+        -13086.5,
+        84.2817,
+        41648
       ]
     },
     {
       "assembly": "t2_base_01",
-      "distance": 4006.3,
+      "distance": 5297,
       "factory": "t2_fuel_storage_large_01",
       "from": [
         -15485.7,
@@ -1450,9 +1450,9 @@
       "resource": "fuel",
       "team": 2,
       "to": [
-        -11959.7,
-        71.9248,
-        45412.4
+        -11092.6,
+        56.941,
+        46469.9
       ]
     },
     {
@@ -1619,7 +1619,7 @@
     },
     {
       "assembly": "t2_base_06",
-      "distance": 14878.8,
+      "distance": 13066.6,
       "factory": "t2_ammo_storage_large_02",
       "from": [
         -14034.3,
@@ -1630,39 +1630,21 @@
       "resource": "ammo",
       "team": 2,
       "to": [
-        -19630,
-        33.759,
-        21758.5
-      ]
-    },
-    {
-      "assembly": "t2_base_02",
-      "distance": 4684.6,
-      "factory": "t2_ammo_storage_large_01",
-      "from": [
-        -16723.6,
-        82.3098,
-        36122.1
-      ],
-      "rank_by_distance": 1,
-      "resource": "ammo",
-      "team": 2,
-      "to": [
-        -15077.6,
-        87.4375,
-        40508
+        -16905.7,
+        35.2838,
+        20719.3
       ]
     },
     {
       "assembly": "t2_base_03",
-      "distance": 5016.9,
+      "distance": 4100.5,
       "factory": "t2_ammo_storage_large_01",
       "from": [
-        -16723.6,
-        82.3098,
-        36122.1
+        -16110.5,
+        71.9449,
+        35315.6
       ],
-      "rank_by_distance": 2,
+      "rank_by_distance": 1,
       "resource": "ammo",
       "team": 2,
       "to": [
@@ -1672,21 +1654,39 @@
       ]
     },
     {
-      "assembly": "t2_base_01",
-      "distance": 10440.5,
+      "assembly": "t2_base_02",
+      "distance": 7017.4,
       "factory": "t2_ammo_storage_large_01",
       "from": [
-        -16723.6,
-        82.3098,
-        36122.1
+        -16110.5,
+        71.9449,
+        35315.6
+      ],
+      "rank_by_distance": 2,
+      "resource": "ammo",
+      "team": 2,
+      "to": [
+        -13086.5,
+        84.2817,
+        41648
+      ]
+    },
+    {
+      "assembly": "t2_base_01",
+      "distance": 12231,
+      "factory": "t2_ammo_storage_large_01",
+      "from": [
+        -16110.5,
+        71.9449,
+        35315.6
       ],
       "rank_by_distance": 3,
       "resource": "ammo",
       "team": 2,
       "to": [
-        -11959.7,
-        71.9248,
-        45412.4
+        -11092.6,
+        56.941,
+        46469.9
       ]
     }
   ],
@@ -1869,9 +1869,9 @@
       "team": 2,
       "unit_class": "nt_ammo_factory_foundation",
       "world_pos": [
-        -16723.6,
-        82.3098,
-        36122.1
+        -16110.5,
+        71.9449,
+        35315.6
       ]
     },
     {
@@ -1941,9 +1941,9 @@
       "team": 2,
       "unit_class": "nt_assembly_area_foundation",
       "world_pos": [
-        -11959.7,
-        71.9248,
-        45412.4
+        -11092.6,
+        56.941,
+        46469.9
       ]
     },
     {
@@ -1953,9 +1953,9 @@
       "team": 2,
       "unit_class": "nt_assembly_area_foundation",
       "world_pos": [
-        -15077.6,
-        87.4375,
-        40508
+        -13086.5,
+        84.2817,
+        41648
       ]
     },
     {
@@ -2013,9 +2013,9 @@
       "team": 1,
       "unit_class": "dynaf_pg_1line_2000_universal",
       "world_pos": [
-        34464.8,
-        57.1191,
-        44959.2
+        32957.4,
+        14.9502,
+        44812.9
       ]
     },
     {
@@ -2025,9 +2025,9 @@
       "team": 2,
       "unit_class": "dynaf_pg_1line_2000_universal",
       "world_pos": [
-        -26123.2,
-        111.289,
-        -10320.4
+        -24880,
+        92.459,
+        -10035.6
       ]
     },
     {
@@ -2061,9 +2061,9 @@
       "team": 2,
       "unit_class": "nt_assembly_area_foundation",
       "world_pos": [
-        -19630,
-        33.759,
-        21758.5
+        -16905.7,
+        35.2838,
+        20719.3
       ]
     }
   ],
@@ -2310,9 +2310,9 @@
       "team": 2,
       "unit_class": "nt_ammo_factory_foundation",
       "world_pos": [
-        -16723.6,
-        82.3098,
-        36122.1
+        -16110.5,
+        71.9449,
+        35315.6
       ]
     },
     {
@@ -2382,9 +2382,9 @@
       "team": 2,
       "unit_class": "nt_assembly_area_foundation",
       "world_pos": [
-        -11959.7,
-        71.9248,
-        45412.4
+        -11092.6,
+        56.941,
+        46469.9
       ]
     },
     {
@@ -2394,9 +2394,9 @@
       "team": 2,
       "unit_class": "nt_assembly_area_foundation",
       "world_pos": [
-        -15077.6,
-        87.4375,
-        40508
+        -13086.5,
+        84.2817,
+        41648
       ]
     },
     {
@@ -2550,9 +2550,9 @@
       "team": 1,
       "unit_class": "dynaf_pg_1line_2000_universal",
       "world_pos": [
-        34464.8,
-        57.1191,
-        44959.2
+        32957.4,
+        14.9502,
+        44812.9
       ]
     },
     {
@@ -2562,9 +2562,9 @@
       "team": 2,
       "unit_class": "dynaf_pg_1line_2000_universal",
       "world_pos": [
-        -26123.2,
-        111.289,
-        -10320.4
+        -24880,
+        92.459,
+        -10035.6
       ]
     },
     {
@@ -2610,9 +2610,9 @@
       "team": 2,
       "unit_class": "nt_stronghold",
       "world_pos": [
-        -8130.26,
-        39.7949,
-        48107.7
+        -7230.21,
+        45.4688,
+        48447.5
       ]
     },
     {
@@ -2634,9 +2634,9 @@
       "team": 2,
       "unit_class": "nt_stronghold",
       "world_pos": [
-        -11384.6,
-        32.6006,
-        23051.6
+        -9311.89,
+        38.3887,
+        24737.7
       ]
     },
     {
@@ -2670,9 +2670,9 @@
       "team": 2,
       "unit_class": "nt_assembly_area_foundation",
       "world_pos": [
-        -19630,
-        33.759,
-        21758.5
+        -16905.7,
+        35.2838,
+        20719.3
       ]
     }
   ],

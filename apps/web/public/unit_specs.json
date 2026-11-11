@@ -850,11 +850,11 @@
   },
   "us_aircraftcarrier_nimitz_ai": {
     "ai_attack_max_radius": 12000,
-    "ai_engagement_range": 8500,
+    "ai_engagement_range": 9500,
     "ai_gun_range": 3000,
     "ai_shell_max_radius": 20000,
-    "ai_target_priority_max_radius": 30000,
-    "engagement_range": 8000,
+    "ai_target_priority_max_radius": 100000,
+    "engagement_range": 10000,
     "exp_class": "exp_cv_ship",
     "hud_names": [
       "USS Nimitz"
@@ -882,9 +882,20 @@
     "unit_type": "typeShip",
     "weapons": [
       {
+        "ai_maximum": 9500,
+        "ai_minimum": 500,
+        "ammo": 21,
+        "effective_maximum": 10000,
+        "guidance": "optical",
+        "minimum": 30,
+        "name": "rocket_rim116c_ram_naval_rocket_launcher",
+        "physical_maximum": 10000,
+        "reload_seconds": 1
+      },
+      {
         "ai_maximum": 8500,
         "ai_minimum": 800,
-        "ammo": 84,
+        "ammo": 32,
         "effective_maximum": 8000,
         "guidance": "saclos",
         "minimum": 30,
@@ -899,9 +910,9 @@
         "effective_maximum": 6000,
         "guidance": null,
         "minimum": 0,
-        "name": "20mm_m61_vulcan_naval_user_cannon",
+        "name": "20mm_m61_phalanx_block1b_naval_user_cannon",
         "physical_maximum": 6000,
-        "reload_seconds": 60
+        "reload_seconds": 605
       },
       {
         "ai_maximum": 2000,
@@ -987,8 +998,8 @@
     "ai_engagement_range": 56300,
     "ai_gun_range": 10000,
     "ai_shell_max_radius": 56300,
-    "ai_target_priority_max_radius": 60000,
-    "engagement_range": 80000,
+    "ai_target_priority_max_radius": 80000,
+    "engagement_range": 14000,
     "exp_class": "exp_cruiser",
     "hud_names": [
       "USS California"
@@ -1030,11 +1041,11 @@
         "ai_maximum": 56300,
         "ai_minimum": 3500,
         "ammo": 41,
-        "effective_maximum": 80000,
-        "guidance": "radar",
-        "minimum": 3000,
-        "name": "rocket_mk13_naval_rocket_launcher",
-        "physical_maximum": 80000,
+        "effective_maximum": 14000,
+        "guidance": "saclos",
+        "minimum": 0,
+        "name": "rocket_mk13_ai_naval_rocket_launcher",
+        "physical_maximum": 14500,
         "reload_seconds": 10
       },
       {
@@ -1136,8 +1147,8 @@
     "ai_engagement_range": 56300,
     "ai_gun_range": 4500,
     "ai_shell_max_radius": 56300,
-    "ai_target_priority_max_radius": 60000,
-    "engagement_range": 80000,
+    "ai_target_priority_max_radius": 100000,
+    "engagement_range": 14000,
     "exp_class": "exp_torpedo_gun_boat",
     "hud_names": [
       "USS Oliver Hazard Perry"
@@ -1148,16 +1159,14 @@
     "sensors": {
       "detection": {
         "ai": false,
-        "band": 0,
+        "band": 6,
         "designation_range": 150000,
         "kind": "detection",
         "maximum": 150000,
         "nominal": 120000,
         "range_status": "confirmed",
         "scope_ranges": [
-          10000,
-          20000,
-          50000
+          60000
         ],
         "sensor": "us_an_sps_49"
       },
@@ -1181,23 +1190,12 @@
         "ai_maximum": 56300,
         "ai_minimum": 3500,
         "ammo": 41,
-        "effective_maximum": 80000,
-        "guidance": "radar",
-        "minimum": 3000,
-        "name": "rocket_mk13_naval_rocket_launcher",
-        "physical_maximum": 80000,
-        "reload_seconds": 10
-      },
-      {
-        "ai_maximum": 4500,
-        "ai_minimum": 0.05,
-        "ammo": null,
-        "effective_maximum": 20000,
-        "guidance": null,
+        "effective_maximum": 14000,
+        "guidance": "saclos",
         "minimum": 0,
-        "name": "76mm_62_oto_melara_compact_naval_user_cannon",
-        "physical_maximum": 20000,
-        "reload_seconds": 0.705
+        "name": "rocket_mk13_ai_naval_rocket_launcher",
+        "physical_maximum": 14500,
+        "reload_seconds": 10
       },
       {
         "ai_maximum": 3000,
@@ -1209,6 +1207,17 @@
         "name": "20mm_m61_vulcan_naval_user_cannon",
         "physical_maximum": 6000,
         "reload_seconds": 60
+      },
+      {
+        "ai_maximum": 4500,
+        "ai_minimum": 0.05,
+        "ammo": null,
+        "effective_maximum": 5000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "76mm_62_oto_melara_compact_naval_user_cannon",
+        "physical_maximum": 5000,
+        "reload_seconds": 0.705
       }
     ]
   },
@@ -2012,7 +2021,7 @@
     "ai_engagement_range": 8500,
     "ai_gun_range": 4000,
     "ai_shell_max_radius": 20000,
-    "ai_target_priority_max_radius": 30000,
+    "ai_target_priority_max_radius": 100000,
     "engagement_range": 8000,
     "exp_class": "exp_cv_ship",
     "hud_names": [
@@ -2352,7 +2361,7 @@
     "ai_engagement_range": 35000,
     "ai_gun_range": 10000,
     "ai_shell_max_radius": 35000,
-    "ai_target_priority_max_radius": 60000,
+    "ai_target_priority_max_radius": 80000,
     "engagement_range": 35000,
     "exp_class": "exp_destroyer",
     "hud_names": [

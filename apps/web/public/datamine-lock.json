@@ -1,5 +1,5 @@
 {
-  "accepted_commit": "6869f5d428002e65ea6bc4965177fd1508e114f6",
+  "accepted_commit": "7897e5c17bfb66ed6582772f4bba3ab1db1de9f3",
   "missing_object_groups": [],
   "ref": "master",
   "repository": "gszabi99/War-Thunder-Datamine",
@@ -16,7 +16,7 @@
     },
     {
       "path": "aces.vromfs.bin_u/templates/nuclear_escalation/strongpoints.blkx",
-      "sha": "7244e946881079cd225c5b2ba93334855796d3b1",
+      "sha": "371af4f0e0d023aa2558d4c66ac8a2e16e3af04d",
       "used_for_generation": true
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "path": "aces.vromfs.bin_u/templates/nuclear_escalation/factory_tank.blkx",
-      "sha": "d59b07c2e802337f061942f818080fadf70da064",
+      "sha": "0f90e381d310bb57f58221911e381be640da4832",
       "used_for_generation": true
     },
     {
@@ -51,17 +51,17 @@
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/templates/units_sets/nuclear_escalation_ship_sets/nuclear_escalation_ships_1970.blkx",
-      "sha": "0b1d4bb60473b821eadbae3019f1288de14cf955",
+      "sha": "e40ec1cdb8733068c6ac1ab90d3c29c6f5d82695",
       "used_for_generation": true
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/templates/units_sets/nuclear_escalation_ship_sets/nuclear_escalation_ships_1980.blkx",
-      "sha": "894b6e9c87106ff57760e40e6cbc9f8b9c885fab",
+      "sha": "567ad08176634128ccb68edb343a51c86410fe93",
       "used_for_generation": true
     },
     {
       "path": "game.vromfs.bin_u/game/es/nuclear_escalation.das",
-      "sha": "99cbfef43a118c97b8da2a44e9cdf6274a1fa4fb",
+      "sha": "f33f2355271359b64fc588c5da584d52f931f639",
       "used_for_generation": true
     },
     {
@@ -71,7 +71,7 @@
     },
     {
       "path": "game.vromfs.bin_u/game/es/unit_spawn_and_route.das",
-      "sha": "c19ade962244a4252f52e5b913752a576164060e",
+      "sha": "b11cfe8706304aa6dcbe14e8b0e1ccd1fe5210a0",
       "used_for_generation": true
     },
     {
@@ -106,12 +106,12 @@
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/cta/planes/nuclear_escalation/air_south_eastern_city_nuclear_escalation_tdm.blkx",
-      "sha": "da898c182d03832e2c06715c24167ab43fcfa6ac",
+      "sha": "fccf2ec3869903cc218ed416f48847ce889ac873",
       "used_for_generation": true
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/cta/planes/nuclear_escalation/air_south_eastern_city_mirror_nuclear_escalation_tdm.blkx",
-      "sha": "eb0d97182b02014e82d904fd5df6dc675c73eefe",
+      "sha": "93fd62935f2423410de29f37c3bf1a9c0f67813c",
       "used_for_generation": true
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "path": "lang.vromfs.bin_u/lang/units.csv",
-      "sha": "b5d235e555c631b3619eec8c622010e0c32bb9d0",
+      "sha": "bce6b9d69023198860766d61dc2cb92f3f4f0721",
       "used_for_generation": true
     },
     {
@@ -171,12 +171,12 @@
     },
     {
       "path": "aces.vromfs.bin_u/gamedata/objectgroups/dynaf_archipelago_a.blkx",
-      "sha": "f3aba87897ac0864c79f9fd6a3a1ed11dbb1e431",
+      "sha": "4100502425031bb76dade788f33f815a1ccd1b7f",
       "used_for_generation": true
     },
     {
       "path": "aces.vromfs.bin_u/gamedata/objectgroups/dynaf_archipelago_b.blkx",
-      "sha": "100dece8a8b1acdadcd9e1b73039a36fbc68e760",
+      "sha": "82a075e4710976d39e027e555ad37a36420598c1",
       "used_for_generation": true
     },
     {
