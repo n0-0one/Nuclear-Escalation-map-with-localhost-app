@@ -1,5 +1,5 @@
 {
-  "accepted_commit": "7897e5c17bfb66ed6582772f4bba3ab1db1de9f3",
+  "accepted_commit": "dff461e08f7ca9f8548938ad55e3239d71aceb85",
   "missing_object_groups": [],
   "ref": "master",
   "repository": "gszabi99/War-Thunder-Datamine",
@@ -156,7 +156,7 @@
     },
     {
       "path": "lang.vromfs.bin_u/lang/units.csv",
-      "sha": "bce6b9d69023198860766d61dc2cb92f3f4f0721",
+      "sha": "2d4eeae00f91936c55c5c29c4141bef0aaca9d0b",
       "used_for_generation": true
     },
     {
