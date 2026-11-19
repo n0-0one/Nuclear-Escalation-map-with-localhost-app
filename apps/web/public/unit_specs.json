@@ -245,77 +245,6 @@
       }
     ]
   },
-  "it_otomatic": {
-    "ai_attack_max_radius": null,
-    "ai_engagement_range": 10000,
-    "ai_gun_range": 10000,
-    "ai_shell_max_radius": 3000,
-    "ai_target_priority_max_radius": 5000,
-    "engagement_range": 10000,
-    "exp_class": "exp_SPAA",
-    "hud_names": [
-      "OTOMATIC"
-    ],
-    "maximum_speed_kph": 75,
-    "model": "otomatic",
-    "on_radar_as": null,
-    "sensors": {
-      "detection": {
-        "ai": true,
-        "band": 4,
-        "designation_range": 15000,
-        "kind": "detection",
-        "maximum": null,
-        "nominal": null,
-        "range_status": "unresolved_internal",
-        "raw_maximum": 10,
-        "raw_nominal": 10,
-        "scope_ranges": [
-          10000,
-          20000
-        ],
-        "sensor": "it_sma_vps-a05_ai"
-      },
-      "irst": {
-        "ai": false,
-        "band": -1,
-        "designation_range": null,
-        "kind": "irst",
-        "maximum": 10000,
-        "nominal": 8000,
-        "range_status": "confirmed",
-        "scope_ranges": [],
-        "sensor": "it_sma_vps-a06"
-      },
-      "tracking": {
-        "ai": false,
-        "band": 10,
-        "designation_range": null,
-        "kind": "tracking",
-        "maximum": 10000,
-        "nominal": 10000,
-        "range_status": "confirmed",
-        "scope_ranges": [],
-        "sensor": "it_sma_vps-a06"
-      }
-    },
-    "target_channels": null,
-    "unit_class": "it_otomatic",
-    "unit_type": "typeSPAA",
-    "weapons": [
-      {
-        "ai_maximum": 10000,
-        "ai_minimum": 0.1,
-        "ammo": null,
-        "effective_maximum": 3000,
-        "guidance": null,
-        "minimum": 0,
-        "name": "76mm_oto_breda_76_62_user_cannon",
-        "physical_maximum": 3000,
-        "reload_seconds": null
-      }
-    ]
-  },
   "it_samp_t_fcs": {
     "ai_attack_max_radius": null,
     "ai_engagement_range": null,
@@ -1457,38 +1386,6 @@
     "unit_type": "typeTankDestroyer",
     "weapons": []
   },
-  "ussr_2s38": {
-    "ai_attack_max_radius": 2000,
-    "ai_engagement_range": 2000,
-    "ai_gun_range": null,
-    "ai_shell_max_radius": null,
-    "ai_target_priority_max_radius": null,
-    "engagement_range": null,
-    "exp_class": "exp_tank",
-    "hud_names": [
-      "2S38"
-    ],
-    "maximum_speed_kph": 75,
-    "model": "2s38",
-    "on_radar_as": "tracked",
-    "sensors": {
-      "tracking": {
-        "ai": false,
-        "band": -1,
-        "designation_range": null,
-        "kind": "tracking",
-        "maximum": 12000,
-        "nominal": 10000,
-        "range_status": "confirmed",
-        "scope_ranges": [],
-        "sensor": "su_bmp_auto_target_tracker"
-      }
-    },
-    "target_channels": null,
-    "unit_class": "ussr_2s38",
-    "unit_type": "typeLightTank",
-    "weapons": []
-  },
   "ussr_2s3m": {
     "ai_attack_max_radius": 15000,
     "ai_engagement_range": 15000,
@@ -2506,8 +2403,8 @@
     ]
   },
   "ussr_pantsyr_s1": {
-    "ai_attack_max_radius": 20000,
-    "ai_engagement_range": 20000,
+    "ai_attack_max_radius": 12000,
+    "ai_engagement_range": 12000,
     "ai_gun_range": 4000,
     "ai_shell_max_radius": 3000,
     "ai_target_priority_max_radius": 25000,
@@ -2568,7 +2465,7 @@
     "unit_type": "typeSPAA",
     "weapons": [
       {
-        "ai_maximum": 20000,
+        "ai_maximum": 12000,
         "ai_minimum": 800,
         "ammo": 12,
         "effective_maximum": 20000,
