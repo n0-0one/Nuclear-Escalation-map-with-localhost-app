@@ -235,7 +235,7 @@
             },
             {
               "count": 1,
-              "name": "us_m163_vulcan",
+              "name": "germ_flakpz_I_Gepard",
               "role": "SPAA escort"
             }
           ],
@@ -267,7 +267,7 @@
             },
             {
               "count": 1,
-              "name": "us_m163_vulcan",
+              "name": "germ_flakpz_I_Gepard",
               "role": "SPAA escort"
             }
           ],
@@ -300,7 +300,7 @@
             },
             {
               "count": 1,
-              "name": "us_m163_vulcan",
+              "name": "germ_flakpz_I_Gepard",
               "role": "SPAA escort"
             }
           ],
@@ -332,7 +332,7 @@
             },
             {
               "count": 1,
-              "name": "us_m163_vulcan",
+              "name": "germ_flakpz_I_Gepard",
               "role": "SPAA escort"
             }
           ],
@@ -343,7 +343,12 @@
               "role": "vehicle"
             },
             {
-              "count": 2,
+              "count": 1,
+              "name": "ussr_bmp_1",
+              "role": "vehicle"
+            },
+            {
+              "count": 1,
               "name": "ussr_zsu_23_4",
               "role": "SPAA escort"
             }
@@ -465,7 +470,7 @@
           "blufor": [
             {
               "count": 1,
-              "name": "us_m163_vulcan",
+              "name": "germ_flakpz_I_Gepard",
               "role": "SPAA escort"
             },
             {
@@ -491,7 +496,7 @@
           "blufor": [
             {
               "count": 1,
-              "name": "us_m163_vulcan",
+              "name": "germ_flakpz_I_Gepard",
               "role": "SPAA escort"
             },
             {
@@ -519,7 +524,7 @@
           "blufor": [
             {
               "count": 1,
-              "name": "us_m163_vulcan",
+              "name": "germ_flakpz_I_Gepard",
               "role": "SPAA escort"
             },
             {
@@ -545,7 +550,7 @@
           "blufor": [
             {
               "count": 1,
-              "name": "us_m163_vulcan",
+              "name": "germ_flakpz_I_Gepard",
               "role": "SPAA escort"
             },
             {

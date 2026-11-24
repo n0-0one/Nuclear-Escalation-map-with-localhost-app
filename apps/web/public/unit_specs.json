@@ -112,8 +112,66 @@
       }
     ]
   },
+  "germ_flakpz_i_gepard": {
+    "ai_attack_max_radius": null,
+    "ai_engagement_range": 3000,
+    "ai_gun_range": 3000,
+    "ai_shell_max_radius": 3000,
+    "ai_target_priority_max_radius": 5000,
+    "engagement_range": 3000,
+    "exp_class": "exp_SPAA",
+    "hud_names": [
+      "Gepard"
+    ],
+    "maximum_speed_kph": 75,
+    "model": "flakpz_I_gepard",
+    "on_radar_as": null,
+    "sensors": {
+      "detection": {
+        "ai": false,
+        "band": 4,
+        "designation_range": 15000,
+        "kind": "detection",
+        "maximum": 20000,
+        "nominal": 16000,
+        "range_status": "confirmed",
+        "scope_ranges": [
+          10000,
+          20000
+        ],
+        "sensor": "de_gepard_sr"
+      },
+      "tracking": {
+        "ai": false,
+        "band": 9,
+        "designation_range": null,
+        "kind": "tracking",
+        "maximum": 20000,
+        "nominal": 15000,
+        "range_status": "confirmed",
+        "scope_ranges": [],
+        "sensor": "de_gepard_fr"
+      }
+    },
+    "target_channels": null,
+    "unit_class": "germ_flakpz_I_Gepard",
+    "unit_type": "typeSPAA",
+    "weapons": [
+      {
+        "ai_maximum": 3000,
+        "ai_minimum": 0.1,
+        "ammo": null,
+        "effective_maximum": 3000,
+        "guidance": null,
+        "minimum": 0,
+        "name": "35mm_oerlikon_kda_user_cannon",
+        "physical_maximum": 3000,
+        "reload_seconds": 1
+      }
+    ]
+  },
   "germ_flarakpz_1": {
-    "ai_attack_max_radius": 10000,
+    "ai_attack_max_radius": 8000,
     "ai_engagement_range": 8000,
     "ai_gun_range": null,
     "ai_shell_max_radius": null,

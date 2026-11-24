@@ -1,5 +1,5 @@
 {
-  "accepted_commit": "c594d15873c70241bc43fb46d3709900c8e374f9",
+  "accepted_commit": "fbfc3fd4929bac8d7ce7c4c467c44ddf0e509a0e",
   "missing_object_groups": [],
   "ref": "master",
   "repository": "gszabi99/War-Thunder-Datamine",
@@ -16,7 +16,7 @@
     },
     {
       "path": "aces.vromfs.bin_u/templates/nuclear_escalation/strongpoints.blkx",
-      "sha": "302356cc5d5759989b5e35ebebe379cee626cc56",
+      "sha": "628e0a65102d637e60011290f43e08132b6d3000",
       "used_for_generation": true
     },
     {
@@ -26,17 +26,17 @@
     },
     {
       "path": "aces.vromfs.bin_u/templates/nuclear_escalation/factory_tank.blkx",
-      "sha": "60ea04188d781d0af664eea9b28e7721af51ab01",
+      "sha": "cdfa9460f2163d071e083a26756fc775cbb30994",
       "used_for_generation": true
     },
     {
       "path": "aces.vromfs.bin_u/templates/nuclear_escalation/factory_equip.blkx",
-      "sha": "c788d09ef09ac4be2969debe3e78102b6810a9ab",
+      "sha": "053b230e12d8860a37f1701c71d3a70f303128ff",
       "used_for_generation": true
     },
     {
       "path": "aces.vromfs.bin_u/templates/nuclear_escalation/factory_air_defence_presets.blkx",
-      "sha": "8ba2f8cdb306f5bc79d7c7aafff1c58ae18ba1d7",
+      "sha": "9337a776857b65c4023fa5fa79f9a339a0321fdf",
       "used_for_generation": true
     },
     {
@@ -96,22 +96,22 @@
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/cta/planes/nuclear_escalation/air_archipelago_nuclear_escalation_tdm.blkx",
-      "sha": "70e62c058319204d5eaecdeb1394b6dd341f743f",
+      "sha": "e5d75709cb3a7c5058c2110b263ccc2b4c9de307",
       "used_for_generation": true
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/cta/planes/nuclear_escalation/air_archipelago_mirror_nuclear_escalation_tdm.blkx",
-      "sha": "91d9e014572972ac631f2c167ba5ba7b6a8a05a5",
+      "sha": "0baaf6d38184bd5b0e366fa547ffb30a0cd45b47",
       "used_for_generation": true
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/cta/planes/nuclear_escalation/air_south_eastern_city_nuclear_escalation_tdm.blkx",
-      "sha": "f5f20304a74bafe8ba3de1cc900ffbad4a002861",
+      "sha": "9e5ef81ff8605c289115baef8c8239af8c48158a",
       "used_for_generation": true
     },
     {
       "path": "mis.vromfs.bin_u/gamedata/missions/cta/planes/nuclear_escalation/air_south_eastern_city_mirror_nuclear_escalation_tdm.blkx",
-      "sha": "97ffaf117fa757ab9a881e1b926ead104ffb18fe",
+      "sha": "3a525a13f5f61941bc38888652b65dfae3da8523",
       "used_for_generation": true
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "path": "lang.vromfs.bin_u/lang/units.csv",
-      "sha": "da51c81a860adf3c625c92d1c11a2504f3c185fe",
+      "sha": "53a801fba4661a1a404cfcb35fec924cfd72b2ef",
       "used_for_generation": true
     },
     {
